@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: e231dd5d68f24424a839809171a1db6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5622911503142884748
+    second: "animation_right_mage_Zeichenfl\xE4che 1_0"
+  - first:
+      213: -5019474102603724776
+    second: "animation_right_mage_Zeichenfl\xE4che 1_1"
+  - first:
+      213: 708811083102730334
+    second: "animation_right_mage_Zeichenfl\xE4che 1_2"
+  - first:
+      213: -7374290338418027040
+    second: "animation_right_mage_Zeichenfl\xE4che 1_3"
+  - first:
+      213: -7553765304473441937
+    second: "animation_right_mage_Zeichenfl\xE4che 1_4"
+  - first:
+      213: 2207569142784485608
+    second: "animation_right_mage_Zeichenfl\xE4che 1_5"
+  - first:
+      213: -8360011489729936534
+    second: "animation_right_mage_Zeichenfl\xE4che 1_6"
+  - first:
+      213: 1256189348465361773
+    second: "animation_right_mage_Zeichenfl\xE4che 1_7"
+  - first:
+      213: -5195865271939102271
+    second: "animation_right_mage_Zeichenfl\xE4che 1_8"
+  - first:
+      213: -5719412248063988477
+    second: "animation_right_mage_Zeichenfl\xE4che 1_9"
+  - first:
+      213: 8364284818950765741
+    second: "animation_right_mage_Zeichenfl\xE4che 1_10"
+  - first:
+      213: -5666800822179249589
+    second: "animation_right_mage_Zeichenfl\xE4che 1_11"
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eb0fae8d43bb4db1268fa7460e34a
+      internalID: -1370569612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_1"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e25295bb464e6647b744c3cc9561a89
+      internalID: -980352185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_2"
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6ed2c7fdf19d54d93024727b3b2aaf
+      internalID: 1240234063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_3"
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082dd6a59d97384c89a33075f156c60
+      internalID: -644279051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_4"
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d36327f5d25fb47adaa61c4e549ca2
+      internalID: -833209091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_5"
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b410711e6f45521449d88498d8014d04
+      internalID: 498645424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a868f7ddd4d0643a5219dfbfd0fd27
+      internalID: -1350153989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_7"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecac6d945e927d4da0231e86f4acb29
+      internalID: -1933014525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_8"
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bfafab3cb6104438882df88728634f
+      internalID: 567850436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_9"
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf9df78a6d283a4e97cdca911d5426a
+      internalID: -1674978342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_10"
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65fa72e0b3ccb94b8f84619b26afe00
+      internalID: 939531219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "animation_right_mage_Zeichenfl\xE4che 1_11"
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2b80b8b1769d0418150c0c85bffe70
+      internalID: 211278544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f24a7fa672ad78b41866708c71caf2f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "animation_right_mage_Zeichenfl\xE4che 1_0": -1370569612
+      "animation_right_mage_Zeichenfl\xE4che 1_1": -980352185
+      "animation_right_mage_Zeichenfl\xE4che 1_10": 939531219
+      "animation_right_mage_Zeichenfl\xE4che 1_11": 211278544
+      "animation_right_mage_Zeichenfl\xE4che 1_2": 1240234063
+      "animation_right_mage_Zeichenfl\xE4che 1_3": -644279051
+      "animation_right_mage_Zeichenfl\xE4che 1_4": -833209091
+      "animation_right_mage_Zeichenfl\xE4che 1_5": 498645424
+      "animation_right_mage_Zeichenfl\xE4che 1_6": -1350153989
+      "animation_right_mage_Zeichenfl\xE4che 1_7": -1933014525
+      "animation_right_mage_Zeichenfl\xE4che 1_8": 567850436
+      "animation_right_mage_Zeichenfl\xE4che 1_9": -1674978342
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

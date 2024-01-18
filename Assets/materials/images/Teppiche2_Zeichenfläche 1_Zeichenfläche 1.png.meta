@@ -1,0 +1,1444 @@
+fileFormatVersion: 2
+guid: a4785e0268c944c47b2e5742f239f541
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1418283563337797736
+    second: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_0"
+  - first:
+      213: -393011288742000180
+    second: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_1"
+  - first:
+      213: -6446770386680580833
+    second: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_2"
+  - first:
+      213: 7444052550819272773
+    second: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_3"
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_0"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a0740870e62e45b5d42dde898e75a
+      internalID: 1835607533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_1"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4ecf71c4c493740848b9ebd451a959
+      internalID: -938494289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_2"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511aa5249a6c16b4480d558dcc6529a1
+      internalID: -350918304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_3"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9f21be6a148d4e846ba7c39db7782
+      internalID: 1215037360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_4"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b469fc20bbd524ca2873d462c7fdd8
+      internalID: 991927219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_5"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71cb512f93aa644a2b524160dc6493
+      internalID: 1831011351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_6"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840dcffe4ea92db49b91505930a515ea
+      internalID: -232618590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_7"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae3b3ade7be7844aa9718e5bafdb06
+      internalID: -1888845460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_8"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d6bcd998f205e4da8356b38bfbb867
+      internalID: -1217751171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_9"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462dea992d23d7d46874cfa217e7c5bd
+      internalID: -1966569063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_10"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43980c486139774aaa622ad36856c04
+      internalID: -444819883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_11"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8405fdc0d1a8a4782a3e531a0b8375
+      internalID: -2018526017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_12"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29556c5fd34adc547b1aa81e64774334
+      internalID: 890022378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_13"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3591200d677113b4a91d76a5b43e187a
+      internalID: -197598688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_14"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e85dc982564104984063c53053880f
+      internalID: -1286343607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_15"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbeddf652f2a8a40afc13fd70c6bf4e
+      internalID: -1976639927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_16"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b27c4803e054da41b2d7c35c06f719f
+      internalID: -1949418344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_17"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d688dc1cabed9774ca19e77d8ff2824d
+      internalID: -1887404153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_18"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1555eb58955be364ba4d2b46fe95b10a
+      internalID: -505258820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_19"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd5636403ad0914485e7e163c652c1c
+      internalID: -833271140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_20"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0024b264ef9724498a9aa7d852ce25
+      internalID: -540044447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_21"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cc819ff1a9ac342a6a66a8052d80cc
+      internalID: -2090026027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_22"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ef0fd7fbe47c4f86b8c988ebf92aa
+      internalID: -438323494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_23"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbcab51dbf28bc41b8ba158a2ea1447
+      internalID: 556032046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_24"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a7aedbd6b675a418beee8097398d9d
+      internalID: 1148998255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_25"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e31dcf37d80c42a7dc256e2cc1c30
+      internalID: 916745701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_26"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8027943ee3a483498398845bfe2c48d
+      internalID: -535783482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_27"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6954959af2faeb44f96fa3d34340e00b
+      internalID: -402278322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_28"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5aee5c64606c74885ba3ad8b80900d
+      internalID: 628313394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_29"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1522600a223c04fbd389d406d75453
+      internalID: 2013900284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_30"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfdb6523fbddeb479cb24f0018e9c7e
+      internalID: 1106403314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_31"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd840bda41866cb4ea53747ee4b643b1
+      internalID: 1629624675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_32"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770fd1290267deb4caa7a66b0813269b
+      internalID: 1832914343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_33"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f149ee345717a429cebe00dadb4575
+      internalID: 785048681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_34"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf4f226630a364abad9b5c57a352a4
+      internalID: 1784896632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_35"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ad179df3d015458404670fa598f42
+      internalID: -1766047589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_36"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a98c7683b2eac4c8b3397d5d8344a3
+      internalID: 291782244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_37"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f6b4b143a8b54ea8f03d17b58ea51
+      internalID: 1105922473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_38"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628816e64d9266841ac0aec6040c3655
+      internalID: -1185983241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_39"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bdac198e16a6e4db95551f4d30af1f
+      internalID: -1700533789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_40"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c44ac3a451e8f43bd43a781fd33782
+      internalID: 1732158084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_41"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091142c80aafa3a4e957c244f0674f01
+      internalID: 1533112025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_42"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af2b867105375c4b8a1a5948c154aa2
+      internalID: -1594373074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_43"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8283821a57092624986f0e3d54da033e
+      internalID: 855739477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_44"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edc7fbf355e6044584b05e4f43d407b
+      internalID: -1178840312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_45"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3f5fa3006e63d478011af1618c6292
+      internalID: 527988047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_46"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090d9bc42eb2aae4284dd19c3ae794a1
+      internalID: 974979147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_47"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8da77fdd17c1b42ac29923e3e01ce4
+      internalID: -470486818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_48"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f8d3536b725d4d889c64c5591187f
+      internalID: -800374445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_49"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662d5ae197645c43b356ef46115e50a
+      internalID: 734129046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_50"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f17eaf4f4ace34aa18f0167f865968
+      internalID: 104472534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_51"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a133f31fe49060247a69b019dbe33567
+      internalID: -642706574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_52"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8774990a7a9da148b4301738760e3bf
+      internalID: -1792480691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_53"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36155bef59269cf4d8fa945019f1fac2
+      internalID: -508112854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_54"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21bc54e1a1f3234b9bbaee3705ebecd
+      internalID: 521407319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_55"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58141d509b4ccd747a7b4d75878a0452
+      internalID: -23994933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_56"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008ec879ec2ce249b4a3bb107dc4f7e
+      internalID: -1733066439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_57"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a9f560c217e024f88ffc429503ebe5
+      internalID: 1168880741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_58"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543b72c4a82dc8c44afe2f7d0ad92493
+      internalID: 1896593167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_59"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a91afc10e842b48b1a3d5802ad0c64
+      internalID: -1194202052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f9e972415dfcef4ba8bb0d22c8c5f4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_0": 1835607533
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_1": -938494289
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_10": -444819883
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_11": -2018526017
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_12": 890022378
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_13": -197598688
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_14": -1286343607
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_15": -1976639927
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_16": -1949418344
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_17": -1887404153
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_18": -505258820
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_19": -833271140
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_2": -350918304
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_20": -540044447
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_21": -2090026027
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_22": -438323494
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_23": 556032046
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_24": 1148998255
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_25": 916745701
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_26": -535783482
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_27": -402278322
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_28": 628313394
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_29": 2013900284
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_3": 1215037360
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_30": 1106403314
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_31": 1629624675
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_32": 1832914343
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_33": 785048681
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_34": 1784896632
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_35": -1766047589
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_36": 291782244
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_37": 1105922473
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_38": -1185983241
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_39": -1700533789
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_4": 991927219
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_40": 1732158084
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_41": 1533112025
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_42": -1594373074
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_43": 855739477
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_44": -1178840312
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_45": 527988047
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_46": 974979147
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_47": -470486818
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_48": -800374445
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_49": 734129046
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_5": 1831011351
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_50": 104472534
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_51": -642706574
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_52": -1792480691
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_53": -508112854
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_54": 521407319
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_55": -23994933
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_56": -1733066439
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_57": 1168880741
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_58": 1896593167
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_59": -1194202052
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_6": -232618590
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_7": -1888845460
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_8": -1217751171
+      "Teppiche2_Zeichenfl\xE4che 1_Zeichenfl\xE4che 1_9": -1966569063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
