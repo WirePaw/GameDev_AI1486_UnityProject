@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    //player manager becomes redundant -> all stats and methods are listed under levelmanager
     public Vector2 spawnpoint;
     void Start()
     {
