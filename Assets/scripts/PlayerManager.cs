@@ -16,6 +16,7 @@ public class PlayerManager : MonoBehaviour
         if(LevelManager.life <= 0 )
         {
             // kill player
+            FindFirstObjectByType<AudioManager>().Play("fail_level");
             Destroy(this.gameObject);
         }
         else

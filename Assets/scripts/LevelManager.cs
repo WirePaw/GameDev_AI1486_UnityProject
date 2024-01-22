@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour
     public static bool doorIsOpen;
     public static int numberOfKeys;
     public static int numberOfEnemies;
+    private static GameObject gitter;
 
     public static void decreaseNeededKeys()
     {
@@ -25,6 +26,7 @@ public class LevelManager : MonoBehaviour
         if(numberOfKeys <= 0)
         {
             doorIsOpen = true;
+            FindFirstObjectByType<AudioManager>().Play("clear_level");
         }
     }
 
