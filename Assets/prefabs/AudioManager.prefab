@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &864453765879174952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4058175551362594258}
+  - component: {fileID: 6766948645608425522}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058175551362594258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864453765879174952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.23428713, y: -2.761701, z: 0.015050309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6766948645608425522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864453765879174952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adcc91bf597bcc44384676408ae489d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: key
+    clip: {fileID: 8300000, guid: 7534f2c31f6ed4846a78353e141c07dd, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: background_level
+    clip: {fileID: 8300000, guid: 11c8ac28f8f6caf4e95e1914e4cb593a, type: 3}
+    loop: 1
+    source: {fileID: 0}
+  - name: background_menu
+    clip: {fileID: 8300000, guid: d888c9a7a59a1c443a765583504e47ca, type: 3}
+    loop: 1
+    source: {fileID: 0}
+  - name: clear_level
+    clip: {fileID: 8300000, guid: c8240d510e8272a4cb73caabd0d17dd7, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: fail_level
+    clip: {fileID: 8300000, guid: 902b26027614d0543b74fd6db15c501a, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: walking_mage
+    clip: {fileID: 8300000, guid: c17f49c3495ed164090a40dac1088bab, type: 3}
+    loop: 1
+    source: {fileID: 0}
