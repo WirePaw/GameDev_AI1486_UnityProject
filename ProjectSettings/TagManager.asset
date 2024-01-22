@@ -58,6 +58,9 @@ TagManager:
   - name: Interior
     uniqueID: 66426301
     locked: 0
+  - name: Decoration
+    uniqueID: 855864225
+    locked: 0
   - name: Entities
     uniqueID: 903435601
     locked: 0

@@ -14,14 +14,13 @@ public class Can_follow_path : MonoBehaviour
     private Can_count_down_timer timer;
     public List<Transform> waypoints;
     public List<Vector3> waypointPositions; // <- quick solution to moving waypoints issue
-    public float angle;
-    private Vector2 oldPosition;
+    public Vector3 direction;
+    private Vector3 oldPosition;
 
     private void Start()
     {
         sprite = GetComponentInChildren<AnimationManager>();
         sightcone = GetComponentInChildren<Can_see_player>();
-        sprite.setAngle(sightcone.transform.eulerAngles.z - 90);
         state = "standing";
         speed = 1f;
         nextPointIndex = 0;
@@ -50,8 +49,10 @@ public class Can_follow_path : MonoBehaviour
             {
                 state = "walking";
                 oldPosition = transform.position;
+                //TODO print("old: "+ oldPosition +" new: "+ )
                 transform.position = Vector2.MoveTowards(transform.position, waypointPositions[nextPointIndex], speed * Time.fixedDeltaTime);
-                angle = -Mathf.Atan2(oldPosition.y - transform.position.y, transform.position.x - oldPosition.x) * 180 / Mathf.PI;
+                direction = (transform.position - oldPosition).normalized;
+                sightcone.setDirection(direction);
             }
             else
             {
@@ -68,13 +69,8 @@ public class Can_follow_path : MonoBehaviour
 
             if (sprite != null)
             {
-                sprite.setAngle(angle);
+                sprite.setState(direction);
             }
         }
-    }
-
-    public float getAngle()
-    {
-        return angle;
     }
 }
