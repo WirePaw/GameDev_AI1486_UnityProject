@@ -9,9 +9,9 @@ public class LevelManager : MonoBehaviour
      * - keys
      * - time
      * - player lifes
-     * - enemies?
-     * - doorState?
-     * 
+     * - enemies
+     * - doorState
+     * - TODO spawnpoint (of player)
      */
     
     public static int life = 3;
@@ -27,4 +27,15 @@ public class LevelManager : MonoBehaviour
             doorIsOpen = true;
         }
     }
+
+    /*
+     * TODO
+     * - write multiple events:
+     *  - player looses life
+     *  - advance level
+     *  - restart level
+     *  - move back level
+     */
+
+
 }

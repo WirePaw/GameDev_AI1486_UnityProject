@@ -52,15 +52,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Wall
-    uniqueID: 3875353589
-    locked: 0
-  - name: Interactable
-    uniqueID: 3517598519
-    locked: 0
-  - name: Decoration
-    uniqueID: 1109542831
-    locked: 0
   - name: Ground
     uniqueID: 67672189
+    locked: 0
+  - name: Interior
+    uniqueID: 66426301
+    locked: 0
+  - name: Entities
+    uniqueID: 903435601
     locked: 0
