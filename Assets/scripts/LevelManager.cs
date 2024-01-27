@@ -18,7 +18,12 @@ public class LevelManager : MonoBehaviour
     public static bool doorIsOpen;
     public static int numberOfKeys;
     public static int numberOfEnemies;
-    private static GameObject gitter;
+
+    [RuntimeInitializeOnLoadMethod]
+    static void OnRuntimeMethodLoad()
+    {
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+    }
 
     public static void decreaseNeededKeys()
     {

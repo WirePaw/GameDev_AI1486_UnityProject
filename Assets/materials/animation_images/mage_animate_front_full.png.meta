@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 299ef1ca69ee7dc4b9082dc35ab55b3b
+guid: f74874feed2171d4188d3c55e86d7a91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4073024702366153627
-    second: mage_front_full_0
+      213: 1550074625901363843
+    second: mage_animate_front_full_0
   - first:
-      213: 4515592197858400190
-    second: mage_front_full_1
+      213: -4224399125521130800
+    second: mage_animate_front_full_1
   - first:
-      213: 5286224183857138740
-    second: mage_front_full_2
+      213: -3826396008112968837
+    second: mage_animate_front_full_2
   - first:
-      213: 5305745231984706173
-    second: mage_front_full_3
+      213: 5354314349421813893
+    second: mage_animate_front_full_3
   - first:
-      213: 4188291055011548401
-    second: mage_front_full_4
+      213: 5340779029908661341
+    second: mage_animate_front_full_4
   - first:
-      213: 4152226264495685908
-    second: mage_front_full_5
+      213: 4169692068880321579
+    second: mage_animate_front_full_5
   - first:
-      213: -2975253104017863681
-    second: mage_front_full_6
+      213: 1561211737718932079
+    second: mage_animate_front_full_6
   - first:
-      213: 8878814710875167689
-    second: mage_front_full_7
+      213: 436750034924606166
+    second: mage_animate_front_full_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mage_front_full_0
+      name: mage_animate_front_full_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,20 +127,20 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 49, y: 0, z: 109, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55025117ce7f79b4488b51747912d331
-      internalID: -1986273426
+      spriteID: 1460e8bba9d58124caa83e62c20245fb
+      internalID: -697166537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_1
+      name: mage_animate_front_full_1
       rect:
         serializedVersion: 2
         x: 500
@@ -148,41 +148,41 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 74, y: 0, z: 79, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95459eef8b40a4c49b9657d403b4e760
-      internalID: 391832848
+      spriteID: 07f73d9b812f70b43b9ba9271507442d
+      internalID: 370144814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_2
+      name: mage_animate_front_full_2
       rect:
         serializedVersion: 2
-        x: 998
+        x: 1000
         y: 500
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 71, y: 0, z: 83, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: accfb5165d0cfa042a90023e4d5d45e2
-      internalID: -362931295
+      spriteID: c482057546ea0184dafe32db652fe1a5
+      internalID: 1341294759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_3
+      name: mage_animate_front_full_3
       rect:
         serializedVersion: 2
         x: 1500
@@ -190,41 +190,41 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e8fac0feb8f76144afefca1cc7c2872
-      internalID: -160726602
+      spriteID: 644cf2bd2fd01694c984a8ed3e9b12f3
+      internalID: -87034253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_4
+      name: mage_animate_front_full_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 500
         height: 500
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 49, y: 0, z: 109, w: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27c2e5a6d3bbaf848857d2c4aa8dc0c2
-      internalID: -280164723
+      spriteID: aba3413d0dd74e548b939d84eddcfe70
+      internalID: -717125308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_5
+      name: mage_animate_front_full_5
       rect:
         serializedVersion: 2
         x: 500
@@ -232,20 +232,20 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 76, y: 0, z: 79, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2fee8245c8e204085a924937cc84e9
-      internalID: 243795510
+      spriteID: 9c1c68e070b2e1741999be17d5e9f9f6
+      internalID: -1368745982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_6
+      name: mage_animate_front_full_6
       rect:
         serializedVersion: 2
         x: 1000
@@ -253,20 +253,20 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c94f7094357c2854992aaabc0b961e03
-      internalID: 1653939730
+      spriteID: 049a665a744ff934f9b76bbc63077aa3
+      internalID: -1550724542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_front_full_7
+      name: mage_animate_front_full_7
       rect:
         serializedVersion: 2
         x: 1500
@@ -274,14 +274,14 @@ TextureImporter:
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e67e1f2f607fdf49b6499a9ea5be2ae
-      internalID: 1784120522
+      spriteID: ce72e76c7de649e45adc7fa5c783b74a
+      internalID: -1574309634
       vertices: []
       indices: 
       edges: []
@@ -289,7 +289,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f636ac5362921b84283df92951ae1144
+    spriteID: 8bcdba8035c255a458dcebd7a3d4d3b8
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +297,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mage_front_full_0: -1986273426
-      mage_front_full_1: 391832848
-      mage_front_full_2: -362931295
-      mage_front_full_3: -160726602
-      mage_front_full_4: -280164723
-      mage_front_full_5: 243795510
-      mage_front_full_6: 1653939730
-      mage_front_full_7: 1784120522
+      mage_animate_front_full_0: -697166537
+      mage_animate_front_full_1: 370144814
+      mage_animate_front_full_2: 1341294759
+      mage_animate_front_full_3: -87034253
+      mage_animate_front_full_4: -717125308
+      mage_animate_front_full_5: -1368745982
+      mage_animate_front_full_6: -1550724542
+      mage_animate_front_full_7: -1574309634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
