@@ -19,12 +19,19 @@ public class LevelManager : MonoBehaviour
     public static int numberOfKeys;
     public static int numberOfEnemies;
 
+    [RuntimeInitializeOnLoadMethod]
+    static void OnRuntimeMethodLoad()
+    {
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+    }
+
     public static void decreaseNeededKeys()
     {
         numberOfKeys--;
         if(numberOfKeys <= 0)
         {
             doorIsOpen = true;
+            FindFirstObjectByType<AudioManager>().Play("clear_level");
         }
     }
 
