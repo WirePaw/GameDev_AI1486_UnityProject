@@ -12,11 +12,16 @@ public class AnimationManager : MonoBehaviour
     public Sprite up, down, left, right;
 
     private Animator anim;
+    public Animator anim2;
     void Start()
     {
         anim = GetComponent<Animator>();
         type = transform.tag;
         state = 0;
+        if (anim2 == null )
+        {
+            anim2 = anim;
+        }
     }
 
     void FixedUpdate()
@@ -25,6 +30,11 @@ public class AnimationManager : MonoBehaviour
         switch(state)
         {
             case 0: //stehend
+                anim.SetBool("isWalkingBack", false);
+                anim.SetBool("isWalkingLeft", false);
+                anim.SetBool("isWalkingRight", false);
+                anim.SetBool("isWalkingForward", false);
+                break;
             case 1: //rechts
                 anim.SetBool("isWalkingBack", false);
                 anim.SetBool("isWalkingLeft", false);
@@ -51,6 +61,11 @@ public class AnimationManager : MonoBehaviour
                 break;
         }
         state = 0;
+
+        if (LevelManager.doorIsOpen)
+        {
+            anim2.SetBool("DoorIsOpen", true);
+        }
     }
     public void setState(Vector3 direction)
     {

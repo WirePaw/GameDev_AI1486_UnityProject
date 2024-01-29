@@ -17,6 +17,12 @@ public class LevelManager : MonoBehaviour
 
     // all attributes are set in "Will_spawn_at_start"
 
+    [RuntimeInitializeOnLoadMethod]
+    static void OnRuntimeMethodLoad()
+    {
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+    }
+
     // Entity interaction
     public static void decreaseNeededKeys()
     {
@@ -26,9 +32,10 @@ public class LevelManager : MonoBehaviour
             doorIsOpen = true;
         }
     }
-    public static void loseLife()
+    public static void loseLife(GameObject[] hearts)
     {
         life--;
+ 
         if (life <= 0)
         {
             // kill player
