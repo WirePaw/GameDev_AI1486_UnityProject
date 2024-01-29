@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,7 @@ public class UIManager : MonoBehaviour
     public GameObject pauseMenu; // set in editor
     private List<GameObject> pauseButtons;
     public bool canLoad;
+
 
     public void Awake()
     {

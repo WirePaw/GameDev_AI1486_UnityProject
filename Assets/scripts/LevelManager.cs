@@ -10,18 +10,18 @@ public class LevelManager : MonoBehaviour
     public static int numberOfKeys;
     public static int numberOfEnemies;
 
-    [RuntimeInitializeOnLoadMethod]
-    static void OnRuntimeMethodLoad()
-    {
-        FindFirstObjectByType<AudioManager>().Play("background_level");
-    }
-
     // player attributes
     public static int life = 3; // lifes of player across every level
     public static Vector3 spawnpoint; // spawnpoint of player, when hit 
     public static bool isActive; // wether player can move or not
 
     // all attributes are set in "Will_spawn_at_start"
+
+    [RuntimeInitializeOnLoadMethod]
+    static void OnRuntimeMethodLoad()
+    {
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+    }
 
     // Entity interaction
     public static void decreaseNeededKeys()
@@ -33,9 +33,10 @@ public class LevelManager : MonoBehaviour
             FindFirstObjectByType<AudioManager>().Play("clear_level");
         }
     }
-    public static void loseLife()
+    public static void loseLife(GameObject[] hearts)
     {
         life--;
+ 
         if (life <= 0)
         {
             // kill player

@@ -105,6 +105,7 @@ MonoBehaviour:
   down: {fileID: 297761703447499198, guid: 6f674c6800d362342b7457593fa4434a, type: 3}
   left: {fileID: 5965833818763761440, guid: 1b83e463dfbaf954cbe994549d9a1602, type: 3}
   right: {fileID: 381587607996107821, guid: 30ccbd60c4d0ec74fb87cbb8afd86b91, type: 3}
+  anim2: {fileID: 0}
 --- !u!111 &2448414018026842435
 Animation:
   m_ObjectHideFlags: 0
