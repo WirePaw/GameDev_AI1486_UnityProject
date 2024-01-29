@@ -17,6 +17,9 @@ public class UIManager : MonoBehaviour
     private List<GameObject> pauseButtons;
     public bool canLoad;
 
+    public GameObject lives;
+    public GameObject[] hearts;
+
 
     public void Awake()
     {
@@ -36,6 +39,23 @@ public class UIManager : MonoBehaviour
         if (loadingMenu.activeInHierarchy)
         {
             StartCoroutine(fadeOutLoading());
+        }
+
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!pauseMenu.activeSelf)
+            {
+                Time.timeScale = 0f;
+                pauseMenu.SetActive(true);
+            } else
+            {
+                Time.timeScale = 1f;
+                pauseMenu.SetActive(false);
+            }
         }
     }
 
@@ -113,5 +133,17 @@ public class UIManager : MonoBehaviour
              *  - give information about progression
              */
         }
+    }
+
+    //heart controll
+    public static void loseHeart(int currentLife)
+    {
+        print(currentLife.ToString());
+        reduceHeart(currentLife);
+    }
+
+    private void reduceHeart(int currentLife)
+    {
+        hearts[currentLife].gameObject.SetActive(false);
     }
 }

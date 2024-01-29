@@ -32,10 +32,10 @@ public class LevelManager : MonoBehaviour
             doorIsOpen = true;
         }
     }
-    public static void loseLife(GameObject[] hearts)
+    public static void loseLife()
     {
         life--;
- 
+        UIManager.loseHeart(life);
         if (life <= 0)
         {
             // kill player

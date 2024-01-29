@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zettel-neu_0: -26868007150871867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
