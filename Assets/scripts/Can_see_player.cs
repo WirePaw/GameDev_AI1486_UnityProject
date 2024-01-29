@@ -65,7 +65,7 @@ public class Can_see_player : MonoBehaviour
                     if (angleToPlayer < sightwidth/2)
                     {
                         //TODO insert enemy action
-                        LevelManager.loseLife();
+                        //LevelManager.loseLife();
                         print("player found");
                     }
                 }

@@ -2,8 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using Unity.Collections.LowLevel.Unsafe;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -19,6 +22,9 @@ public class UIManager : MonoBehaviour
 
     //player status
     public GameObject[] hearts;
+    public GameObject[] keys;
+    public Sprite keySprite;
+    public Sprite lostKeySprite;
 
 
     public void Awake()
@@ -113,7 +119,7 @@ public class UIManager : MonoBehaviour
     }
     public IEnumerator AsyncLoadNextScene(int nextIndex)
     {
-        while(!canLoad)
+        while (!canLoad)
         {
             print("x");
             StartCoroutine(fadeInLoading());
@@ -133,6 +139,7 @@ public class UIManager : MonoBehaviour
              *  - give information about progression
              */
         }
+        this.refreshKey();
     }
 
     //heart control
@@ -148,6 +155,7 @@ public class UIManager : MonoBehaviour
             }
         }
     }
+
     public void gainHeart()
     {
         for(int i = 0; i < hearts.Length; i++)
@@ -156,6 +164,24 @@ public class UIManager : MonoBehaviour
             {
                 hearts[i].SetActive(true);
                 return;
+            }
+        }
+    }
+
+    //key control
+    public void foundKey(int numberOfKeys)
+    {
+        keys[3 - numberOfKeys].GetComponent<Image>().sprite = keySprite;
+    }
+
+    public void refreshKey()
+    {
+        for (int i = 0; i < keys.Length; i++)
+        {
+            keys[i].GetComponent<Image>().sprite = lostKeySprite;
+            if (i >= GameObject.FindGameObjectsWithTag("Key").Length)
+            {
+                keys[i].gameObject.SetActive(false);
             }
         }
     }

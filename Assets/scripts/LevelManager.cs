@@ -25,8 +25,9 @@ public class LevelManager : MonoBehaviour
     // Entity interaction
     public static void decreaseNeededKeys()
     {
+        GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().foundKey(numberOfKeys);
         numberOfKeys--;
-        if(numberOfKeys <= 0)
+        if (numberOfKeys <= 0)
         {
             doorIsOpen = true;
         }
@@ -38,6 +39,7 @@ public class LevelManager : MonoBehaviour
         if (life <= 0)
         {
             // kill player
+            FindFirstObjectByType<AudioManager>().Play("fail_level");
             Destroy(GameObject.FindGameObjectWithTag("Player"));
         }
         else
