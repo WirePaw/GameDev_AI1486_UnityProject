@@ -9,11 +9,19 @@ public class Can_see_player : MonoBehaviour
     public RaycastHit2D hit;
     public LayerMask layerMask;
     public Can_follow_path body;
-    public GameObject sightCone;
+    public Can_be_controlled player;
+    public GameObject sightcone;
 
     // sightcone attributes
     public float sightwidth; //TODO change name, so reader knows it calculates width in degree
     public float sightlength;
+
+    //debug
+    public float distance;
+    public Vector3 bodyDir;
+    public Vector3 playerDir;
+    public float angleToPlayer;
+    public float angleOfSight;
 
     private void OnDrawGizmosSelected()
     {
@@ -29,33 +37,48 @@ public class Can_see_player : MonoBehaviour
     private void Start()
     {
         body = GetComponentInParent<Can_follow_path>();
-        sightCone = transform.Find("sightcone").gameObject;
+        //player = GameObject.FindGameObjectWithTag("Player").GetComponent<Can_be_controlled>();
+        sightcone = transform.Find("sightcone").gameObject;
+
+        bodyDir = Vector3.down;
     }
     private void FixedUpdate()
     {
         if(body != null)
         {
-            transform.eulerAngles = new Vector3 (0f, 0f, body.getAngle()+90);
-        }
-    }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        //TODO needs to be replaced by new "sightlength and sightwidth"-system
-        if (collision.CompareTag("Player"))
-        {
-            hit = Physics2D.Raycast(transform.position, (collision.transform.position - transform.position).normalized, 20f, layerMask);
-            
-            if(hit.collider != null)
+            if(bodyDir != Vector3.zero)
             {
-                Debug.DrawLine(transform.position, hit.transform.position);
-                switch (hit.collider.tag)
+                //TODO angleOfSight doesn't work properly -> look into Vector3.up and if-clause for negative correction
+                angleOfSight = Vector3.Angle(bodyDir, Vector3.up);
+                if (angleOfSight < 0) angleOfSight = 360 - angleOfSight * -1;
+
+                transform.rotation = Quaternion.Euler(0, 0, angleOfSight);
+            }
+            if(player != null)
+            {
+                distance = (player.getPosition() - transform.position).magnitude;
+                if (distance < sightlength) //code optimisation -> square-root-operation costs more time than multiplication
                 {
-                    case "Player":
-                        hit.collider.transform.gameObject.GetComponent<PlayerManager>().loseLife();
-                        break;
+                    playerDir = (player.getPosition() - transform.position).normalized;
+                    angleToPlayer = Vector3.Angle(bodyDir, playerDir);
+
+                    if (angleToPlayer < sightwidth/2)
+                    {
+                        //TODO insert enemy action
+                        //LevelManager.loseLife();
+                        print("player found");
+                    }
                 }
+            }
+            else
+            {
+                player = GameObject.FindGameObjectWithTag("Player").GetComponent<Can_be_controlled>();
             }
         }
     }
 
+    public void setDirection(Vector3 direction)
+    {
+        this.bodyDir = direction;
+    }
 }

@@ -20,40 +20,37 @@ public class Can_be_controlled : MonoBehaviour
     void Update()
     {
         isMoving = false;
+        direction = Vector2.zero;
         // get input
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if(LevelManager.isActive)
         {
-            isMoving = true;
-            direction += Vector2.up;
-        }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            isMoving = true;
-            direction += Vector2.left;
-        }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            isMoving = true;
-            direction += Vector2.down;
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            isMoving = true;
-            direction += Vector2.right;
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            {
+                isMoving = true;
+                direction += Vector2.up;
+            }
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                isMoving = true;
+                direction += Vector2.left;
+            }
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            {
+                isMoving = true;
+                direction += Vector2.down;
+            }
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                isMoving = true;
+                direction += Vector2.right;
+            }
         }
         if (isMoving)
         {
             direction.Normalize();
             if(sprite != null)
             {
-                if (Vector2.Angle(direction, Vector2.up) > 90)
-                {
-                    sprite.setAngle(-Vector2.Angle(Vector2.right, direction));
-                }
-                else
-                {
-                    sprite.setAngle(Vector2.Angle(Vector2.right, direction));
-                }
+                sprite.setState(direction);
 
             }
         }
@@ -66,5 +63,15 @@ public class Can_be_controlled : MonoBehaviour
             //print(dir);
             rb2d.MovePosition(rb2d.position + direction * speed * Time.fixedDeltaTime);
         }
+    }
+
+    public Vector3 getPosition()
+    {
+        return transform.position;
+    }
+
+    public Vector3 getDirection()
+    {
+        return direction;
     }
 }

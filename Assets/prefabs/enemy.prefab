@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 903435601
-  m_SortingLayer: 6
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 297761703447499198, guid: 6f674c6800d362342b7457593fa4434a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 
-  angle: 0
+  state: 0
   up: {fileID: 2592271833337211837, guid: f33fb196239a7514da484bcb3b8f0c5e, type: 3}
   down: {fileID: 297761703447499198, guid: 6f674c6800d362342b7457593fa4434a, type: 3}
   left: {fileID: 5965833818763761440, guid: 1b83e463dfbaf954cbe994549d9a1602, type: 3}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Intensity: 0.3
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000007d980804bd95f503f7a2672b5155d935
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -276,10 +276,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 
   nextPointIndex: 0
-  speed: 0
+  speed: 1
   waypoints: []
   waypointPositions: []
-  angle: 0
+  direction: {x: 0, y: 0, z: 0}
 --- !u!1 &3616117551001351778
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6897562318638327983
 Transform:
   m_ObjectHideFlags: 0
@@ -407,7 +407,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1239998220017191303}
   - component: {fileID: 1722477562752861090}
-  - component: {fileID: 7755931918936601552}
   - component: {fileID: 5146292394126456590}
   m_Layer: 7
   m_Name: sight
@@ -460,67 +459,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &7755931918936601552
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8544241561976651654}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.00004339218, y: 0.7669146}
-      - {x: -0.5719004, y: 0.5102812}
-      - {x: -0.76854277, y: -0.005051136}
-      - {x: -0.583992, y: -0.4966514}
-      - {x: -0.31185532, y: -0.6589271}
-      - {x: -1.8991966, y: -3.428077}
-      - {x: -1.7902944, y: -3.8052995}
-      - {x: 0.03207016, y: -4.2492123}
-      - {x: 1.8370167, y: -3.7836194}
-      - {x: 1.9614925, y: -3.3862562}
-      - {x: 0.3302269, y: -0.6660732}
-      - {x: 0.5918217, y: -0.49113345}
-      - {x: 0.76491165, y: -0.036362886}
-      - {x: 0.58165455, y: 0.50477743}
-  m_UseDelaunayMesh: 0
 --- !u!114 &5146292394126456590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,9 +475,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   body: {fileID: 0}
-  sightCone: {fileID: 0}
+  player: {fileID: 0}
+  sightcone: {fileID: 0}
   sightwidth: 65
   sightlength: 4.25
+  distance: 0
+  bodyDir: {x: 0, y: 0, z: 0}
+  playerDir: {x: 0, y: 0, z: 0}
+  angleToPlayer: 0
+  angleOfSight: 0
 --- !u!1001 &3129438586327971405
 PrefabInstance:
   m_ObjectHideFlags: 0
