@@ -6,15 +6,10 @@ using UnityEngine.SceneManagement;
 public class Can_exit_from : MonoBehaviour
 {
     BoxCollider2D col;
-    UIManager ui;
 
     private void Start()
     {
-        ui = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
         col = GetComponent<BoxCollider2D>();
-        LevelManager.doorIsOpen = false;
-        LevelManager.numberOfKeys = GameObject.FindGameObjectsWithTag("Key").Length;
-        LevelManager.numberOfEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
     private void Update()
     {
@@ -25,28 +20,8 @@ public class Can_exit_from : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            StartCoroutine(ui.fadeInLoading());
-            if(ui.canLoad)
-            {
-                StartCoroutine(AsyncLoadNextScene());
-            }
+            LevelManager.advanceLevel();
         }
     }
-    IEnumerator AsyncLoadNextScene()
-    {
-        var nextIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        if(nextIndex <= SceneManager.sceneCountInBuildSettings)
-        {
-            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(nextIndex);
-            while(!asyncLoad.isDone)
-            {
-                print("loading");
-                yield return null;
-            }
-            /*
-             * while(asyncLoad still loading)
-             *  
-             */
-        }
-    }
+    
 }

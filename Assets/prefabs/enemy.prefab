@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 
-  angle: 0
+  state: 0
   up: {fileID: 2592271833337211837, guid: f33fb196239a7514da484bcb3b8f0c5e, type: 3}
   down: {fileID: 297761703447499198, guid: 6f674c6800d362342b7457593fa4434a, type: 3}
   left: {fileID: 5965833818763761440, guid: 1b83e463dfbaf954cbe994549d9a1602, type: 3}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Intensity: 0.3
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000007d980804bd95f503f7a2672b5155d935
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -276,10 +276,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 
   nextPointIndex: 0
-  speed: 0
+  speed: 1
   waypoints: []
   waypointPositions: []
-  angle: 0
+  direction: {x: 0, y: 0, z: 0}
 --- !u!1 &3616117551001351778
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,9 +475,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   body: {fileID: 0}
-  sightCone: {fileID: 0}
+  player: {fileID: 0}
+  sightcone: {fileID: 0}
   sightwidth: 65
   sightlength: 4.25
+  distance: 0
+  bodyDir: {x: 0, y: 0, z: 0}
+  playerDir: {x: 0, y: 0, z: 0}
+  angleToPlayer: 0
+  angleOfSight: 0
 --- !u!1001 &3129438586327971405
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -22,25 +22,28 @@ public class Can_be_controlled : MonoBehaviour
         isMoving = false;
         direction = Vector2.zero;
         // get input
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if(LevelManager.isActive)
         {
-            isMoving = true;
-            direction += Vector2.up;
-        }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            isMoving = true;
-            direction += Vector2.left;
-        }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            isMoving = true;
-            direction += Vector2.down;
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            isMoving = true;
-            direction += Vector2.right;
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            {
+                isMoving = true;
+                direction += Vector2.up;
+            }
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                isMoving = true;
+                direction += Vector2.left;
+            }
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            {
+                isMoving = true;
+                direction += Vector2.down;
+            }
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                isMoving = true;
+                direction += Vector2.right;
+            }
         }
         if (isMoving)
         {
