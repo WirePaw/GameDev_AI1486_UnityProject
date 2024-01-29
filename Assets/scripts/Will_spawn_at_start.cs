@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class Will_spawn_at_start : MonoBehaviour
 {
-    public GameObject ObjectToSpawn;
+    public GameObject ObjectToSpawn; // set in editor
     void Start()
     {
-        if(ObjectToSpawn != null )
+        Instantiate(ObjectToSpawn, transform.position, transform.rotation);
+
+        // setup new level
+        LevelManager.spawnpoint = transform.position;
+        LevelManager.numberOfKeys = GameObject.FindGameObjectsWithTag("Key").Length;
+        LevelManager.numberOfEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        if(LevelManager.numberOfKeys > 0)
         {
-            Instantiate(ObjectToSpawn, transform.position, transform.rotation);
+            LevelManager.doorIsOpen = false;
         }
+        else
+        {
+            LevelManager.doorIsOpen = true;
+        }
+
+        LevelManager.startLevel();
     }
 
 }
