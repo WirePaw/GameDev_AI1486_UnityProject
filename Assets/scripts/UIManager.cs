@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     private List<GameObject> pauseButtons;
     public bool canLoad;
 
-    public GameObject lives;
+    //player status
     public GameObject[] hearts;
 
 
@@ -135,15 +135,28 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    //heart controll
-    public static void loseHeart(int currentLife)
+    //heart control
+    public void loseHeart()
     {
-        print(currentLife.ToString());
-        reduceHeart(currentLife);
+        // move backwards from hearts[] -> check if current entity is enabled -> if yes, disable and end loop -> if no, move to next entity
+        for(int i = hearts.Length - 1; i >= 0; i--)
+        {
+            if (hearts[i].activeInHierarchy)
+            {
+                hearts[i].SetActive(false);
+                return;
+            }
+        }
     }
-
-    private void reduceHeart(int currentLife)
+    public void gainHeart()
     {
-        hearts[currentLife].gameObject.SetActive(false);
+        for(int i = 0; i < hearts.Length; i++)
+        {
+            if (!hearts[i].activeInHierarchy)
+            {
+                hearts[i].SetActive(true);
+                return;
+            }
+        }
     }
 }

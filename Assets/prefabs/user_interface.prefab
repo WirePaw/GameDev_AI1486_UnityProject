@@ -1047,6 +1047,10 @@ MonoBehaviour:
   pauseMenu: {fileID: 8419328677877739885}
   canLoad: 0
   lives: {fileID: 0}
+  hearts:
+  - {fileID: 6054392944004741521}
+  - {fileID: 8570663335586654961}
+  - {fileID: 6873255064178067935}
 --- !u!1 &5155573021366836919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -380.4, y: 214.2}
+  m_AnchoredPosition: {x: -200.9, y: 109.1}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2590262245873521687
@@ -1365,7 +1369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280.5, y: 214.2}
+  m_AnchoredPosition: {x: -104.8, y: 109.1}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &481866672314166740
@@ -1674,7 +1678,7 @@ GameObject:
   - component: {fileID: 4477788266825308323}
   - component: {fileID: 9129547405799847840}
   m_Layer: 5
-  m_Name: lifes
+  m_Name: player_data
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1921,7 +1925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.1, y: 214.2}
+  m_AnchoredPosition: {x: -153.5, y: 109.1}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8928753102329871565

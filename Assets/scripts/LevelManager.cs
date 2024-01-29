@@ -14,7 +14,6 @@ public class LevelManager : MonoBehaviour
     public static int life = 3; // lifes of player across every level
     public static Vector3 spawnpoint; // spawnpoint of player, when hit 
     public static bool isActive; // wether player can move or not
-
     // all attributes are set in "Will_spawn_at_start"
 
     [RuntimeInitializeOnLoadMethod]
@@ -35,7 +34,7 @@ public class LevelManager : MonoBehaviour
     public static void loseLife()
     {
         life--;
-        UIManager.loseHeart(life);
+        GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().loseHeart();
         if (life <= 0)
         {
             // kill player
@@ -49,6 +48,7 @@ public class LevelManager : MonoBehaviour
 
     // Level interaction
     //TODO when advancing level, fadeInLoading doesn't work -> no black screen to initiate new scene (loading time is too short to notice)
+    //TODO find better way to reference UIManager in LevelManager -> possibly via stati ui-attribute?
     public static void advanceLevel()
     {
         GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().advanceLevel();
