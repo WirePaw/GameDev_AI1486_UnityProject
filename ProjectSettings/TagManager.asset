@@ -15,6 +15,7 @@ TagManager:
   - LoadingMenu
   - MenuScreen
   - UI
+  - Heart
   layers:
   - Default
   - TransparentFX
