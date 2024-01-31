@@ -171,7 +171,7 @@ public class UIManager : MonoBehaviour
     //key control
     public void foundKey(int numberOfKeys)
     {
-        keys[3 - numberOfKeys].GetComponent<Image>().sprite = keySprite;
+        keys[numberOfKeys].GetComponent<Image>().sprite = keySprite;
     }
 
     public void refreshKey()
@@ -179,7 +179,7 @@ public class UIManager : MonoBehaviour
         for (int i = 0; i < keys.Length; i++)
         {
             keys[i].GetComponent<Image>().sprite = lostKeySprite;
-            if (i >= GameObject.FindGameObjectsWithTag("Key").Length)
+            if (i > GameObject.FindGameObjectsWithTag("Key").Length -1 )
             {
                 keys[i].gameObject.SetActive(false);
             }

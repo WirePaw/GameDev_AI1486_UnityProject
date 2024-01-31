@@ -24,9 +24,9 @@ public class LevelManager : MonoBehaviour
 
     // Entity interaction
     public static void decreaseNeededKeys()
-    {
+    { numberOfKeys--;
         GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().foundKey(numberOfKeys);
-        numberOfKeys--;
+       
         if (numberOfKeys <= 0)
         {
             doorIsOpen = true;
