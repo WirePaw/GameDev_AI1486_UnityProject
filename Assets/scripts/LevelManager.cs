@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
     // level attributes
     public static bool doorIsOpen;
     public static int numberOfKeys;
+    public static int maxNumberOfKeys;
     public static int numberOfEnemies;
 
     // player attributes
@@ -25,7 +26,7 @@ public class LevelManager : MonoBehaviour
     // Entity interaction
     public static void decreaseNeededKeys()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().foundKey(numberOfKeys);
+        GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>().foundKey(numberOfKeys, maxNumberOfKeys);
         numberOfKeys--;
         if (numberOfKeys <= 0)
         {

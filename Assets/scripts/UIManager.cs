@@ -169,19 +169,22 @@ public class UIManager : MonoBehaviour
     }
 
     //key control
-    public void foundKey(int numberOfKeys)
+    public void foundKey(int numberOfKeys, int maxNumberOfKeys)
     {
-        keys[3 - numberOfKeys].GetComponent<Image>().sprite = keySprite;
+        keys[maxNumberOfKeys - numberOfKeys].GetComponent<Image>().sprite = keySprite;
     }
 
     public void refreshKey()
     {
         for (int i = 0; i < keys.Length; i++)
         {
-            keys[i].GetComponent<Image>().sprite = lostKeySprite;
-            if (i >= GameObject.FindGameObjectsWithTag("Key").Length)
+            if (i > GameObject.FindGameObjectsWithTag("Key").Length - 1)
             {
                 keys[i].gameObject.SetActive(false);
+            } else
+            {
+                keys[i].gameObject.SetActive(true);
+                keys[i].GetComponent<Image>().sprite = lostKeySprite;
             }
         }
     }
