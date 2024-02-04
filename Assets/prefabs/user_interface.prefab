@@ -1051,9 +1051,9 @@ MonoBehaviour:
   - {fileID: 8570663335586654961}
   - {fileID: 6873255064178067935}
   keys:
-  - {fileID: 1415954922216127905}
-  - {fileID: 3977873603980379338}
   - {fileID: 5155573021366836919}
+  - {fileID: 3977873603980379338}
+  - {fileID: 1415954922216127905}
   keySprite: {fileID: 5821802968877404505, guid: b6d53a478c9398d45a91b99de660ae95, type: 3}
   lostKeySprite: {fileID: -26868007150871867, guid: 76540ffe7cf7fc34fbb6fbeda38dcaed, type: 3}
 --- !u!1 &5155573021366836919
@@ -1514,8 +1514,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.72911197, g: 0.8301887, b: 0.44250622, a: 1}
+    m_PressedColor: {r: 0.5188679, g: 0.15419188, b: 0.15419188, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1790,6 +1790,7 @@ GameObject:
   - component: {fileID: 3141876921555295657}
   - component: {fileID: 1187767276491482438}
   - component: {fileID: 6240126084318865553}
+  - component: {fileID: 2303379726662809244}
   m_Layer: 5
   m_Name: pause_menu
   m_TagString: PauseMenu
@@ -1896,6 +1897,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &2303379726662809244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419328677877739885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab4dc6dd8bb2964faa01192eb856edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8570663335586654961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,9 +2105,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3515678635777755521}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: returnToGame
+      - m_Target: {fileID: 2303379726662809244}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: doSomethingButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
