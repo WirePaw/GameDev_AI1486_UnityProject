@@ -56,10 +56,12 @@ public class UIManager : MonoBehaviour
             if (!pauseMenu.activeSelf)
             {
                 Time.timeScale = 0f;
+                FindFirstObjectByType<AudioManager>().Pause("background_level");
                 pauseMenu.SetActive(true);
             } else
             {
                 Time.timeScale = 1f;
+                FindFirstObjectByType<AudioManager>().Play("background_level");
                 pauseMenu.SetActive(false);
             }
         }

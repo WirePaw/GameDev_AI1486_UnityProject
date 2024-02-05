@@ -27,6 +27,7 @@ public class AudioManager : MonoBehaviour
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
+            s.source.volume = s.volume;
             s.source.loop = s.loop;
         }
 
@@ -42,5 +43,19 @@ public class AudioManager : MonoBehaviour
     {
         AudioSound s = Array.Find(sounds, sound => sound.name == name);
         s.source.Play();
+    }
+
+    public void Pause(String name)
+    {
+        AudioSound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Pause();
+    }
+
+    public void setVolume(float volume)
+    {
+        foreach (AudioSound s in sounds)
+        {
+            s.source.volume = volume;
+        }
     }
 }

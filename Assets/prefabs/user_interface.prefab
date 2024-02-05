@@ -957,8 +957,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8056725532833315098}
   - {fileID: 5232778971698284768}
+  - {fileID: 8056725532833315098}
   - {fileID: 787676486049572509}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2107,7 +2107,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2303379726662809244}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: doSomethingButton
+        m_MethodName: testPrint
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

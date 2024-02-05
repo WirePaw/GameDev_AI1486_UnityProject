@@ -47,25 +47,31 @@ MonoBehaviour:
   sounds:
   - name: key
     clip: {fileID: 8300000, guid: 7534f2c31f6ed4846a78353e141c07dd, type: 3}
+    volume: 5
     loop: 0
     source: {fileID: 0}
   - name: background_level
     clip: {fileID: 8300000, guid: 11c8ac28f8f6caf4e95e1914e4cb593a, type: 3}
+    volume: 5
     loop: 1
     source: {fileID: 0}
   - name: background_menu
     clip: {fileID: 8300000, guid: d888c9a7a59a1c443a765583504e47ca, type: 3}
+    volume: 2.5
     loop: 1
     source: {fileID: 0}
   - name: clear_level
     clip: {fileID: 8300000, guid: c8240d510e8272a4cb73caabd0d17dd7, type: 3}
+    volume: 5
     loop: 0
     source: {fileID: 0}
   - name: fail_level
     clip: {fileID: 8300000, guid: 902b26027614d0543b74fd6db15c501a, type: 3}
+    volume: 5
     loop: 0
     source: {fileID: 0}
   - name: walking_mage
     clip: {fileID: 8300000, guid: c17f49c3495ed164090a40dac1088bab, type: 3}
+    volume: 5
     loop: 1
     source: {fileID: 0}

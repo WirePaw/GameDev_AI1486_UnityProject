@@ -17,12 +17,6 @@ public class LevelManager : MonoBehaviour
     public static bool isActive; // wether player can move or not
     // all attributes are set in "Will_spawn_at_start"
 
-    [RuntimeInitializeOnLoadMethod]
-    static void OnRuntimeMethodLoad()
-    {
-        FindFirstObjectByType<AudioManager>().Play("background_level");
-    }
-
     // Entity interaction
     public static void decreaseNeededKeys()
     {
@@ -30,6 +24,7 @@ public class LevelManager : MonoBehaviour
         numberOfKeys--;
         if (numberOfKeys <= 0)
         {
+            FindFirstObjectByType<AudioManager>().Play("clear_level");
             doorIsOpen = true;
         }
     }

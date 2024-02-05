@@ -11,6 +11,9 @@ public class AudioSound
 
     public AudioClip clip;
 
+    [Range(0f, 5f)]
+    public float volume;
+
     public bool loop;
 
     [HideInInspector]
