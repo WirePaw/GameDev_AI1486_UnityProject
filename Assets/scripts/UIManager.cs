@@ -67,6 +67,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void returnGameButton()
+    {
+        Time.timeScale = 1f;
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+        pauseMenu.SetActive(false);
+    }
+
+    public void restartLevelButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+        pauseMenu.SetActive(false);
+    }
+
+    public void mainMenuButton()
+    {
+        SceneManager.LoadScene("StartScene");
+        FindFirstObjectByType<AudioManager>().Play("background_menu");
+        pauseMenu.SetActive(false);
+    }
+
 
     public void advanceLevel()
     {

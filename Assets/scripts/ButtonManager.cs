@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-
     [RuntimeInitializeOnLoadMethod]
     static void OnRuntimeMethodLoad()
     {
@@ -29,8 +28,4 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void testPrint()
-    {
-        Debug.Log("HALOOOOOOO!");
-    }
 }
