@@ -14,7 +14,6 @@ public class ButtonManager : MonoBehaviour
     public void startGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
-        FindFirstObjectByType<AudioManager>().Play("background_level");
         FindFirstObjectByType<AudioManager>().Stop("background_menu");
     }
 
