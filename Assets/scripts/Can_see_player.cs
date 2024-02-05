@@ -23,6 +23,8 @@ public class Can_see_player : MonoBehaviour
     public float angleToPlayer;
     public float angleOfSight;
 
+    public float angleMidCalc;
+
     private void OnDrawGizmosSelected()
     {
         //length of sightcone
@@ -32,6 +34,9 @@ public class Can_see_player : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth/2 * Mathf.Deg2Rad)) + (Vector3.right * sightlength * Mathf.Sin(sightwidth/2 * Mathf.Deg2Rad)));
         Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth/2 * Mathf.Deg2Rad)) + (Vector3.left * sightlength * Mathf.Sin(sightwidth/2 * Mathf.Deg2Rad)));
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + bodyDir);
     }
 
     private void Start()
@@ -49,10 +54,12 @@ public class Can_see_player : MonoBehaviour
             if(bodyDir != Vector3.zero)
             {
                 //TODO angleOfSight doesn't work properly -> look into Vector3.up and if-clause for negative correction
-                angleOfSight = Vector3.Angle(bodyDir, Vector3.up);
-                if (angleOfSight < 0) angleOfSight = 360 - angleOfSight * -1;
 
-                transform.rotation = Quaternion.Euler(0, 0, angleOfSight);
+                //angleOfSight = Vector3.Angle(bodyDir, Vector3.up);
+                //var difference = (transform.position + bodyDir) - transform.position;
+                //angleOfSight = ((Mathf.Atan2(difference.x, difference.y) + 360) % 360) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.LookRotation(bodyDir, Vector3.right);
+                //transform.rotation = Quaternion.Euler(0, 0, angleOfSight);
             }
             if(player != null)
             {
