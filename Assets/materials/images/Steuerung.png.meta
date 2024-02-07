@@ -1,0 +1,1237 @@
+fileFormatVersion: 2
+guid: 7fc99628ba4098047b47e96c84ea206a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2714461934098222830
+    second: Steuerung_0
+  - first:
+      213: 8953518077046437905
+    second: Steuerung_1
+  - first:
+      213: 7101283276933853979
+    second: Steuerung_2
+  - first:
+      213: -853169606290985148
+    second: Steuerung_3
+  - first:
+      213: -2772942475924416114
+    second: Steuerung_4
+  - first:
+      213: 4520314006410516535
+    second: Steuerung_5
+  - first:
+      213: -5532283899417382989
+    second: Steuerung_6
+  - first:
+      213: -7111084480341016281
+    second: Steuerung_7
+  - first:
+      213: 6056899790909180456
+    second: Steuerung_8
+  - first:
+      213: 1492480946576594880
+    second: Steuerung_9
+  - first:
+      213: -132512437765864086
+    second: Steuerung_10
+  - first:
+      213: 7737525230081214479
+    second: Steuerung_11
+  - first:
+      213: -3619458729421875881
+    second: Steuerung_12
+  - first:
+      213: -2462727709215314400
+    second: Steuerung_13
+  - first:
+      213: -17145286143987640
+    second: Steuerung_14
+  - first:
+      213: -7844744188285876576
+    second: Steuerung_15
+  - first:
+      213: 4038332534072907571
+    second: Steuerung_16
+  - first:
+      213: 4736301942594907456
+    second: Steuerung_17
+  - first:
+      213: -8956784851564304856
+    second: Steuerung_18
+  - first:
+      213: 343615873627009364
+    second: Steuerung_19
+  - first:
+      213: 8682016732528668146
+    second: Steuerung_20
+  - first:
+      213: -17623805637165486
+    second: Steuerung_21
+  - first:
+      213: -522911647546273278
+    second: Steuerung_22
+  - first:
+      213: 8457192891524676242
+    second: Steuerung_23
+  - first:
+      213: -618043402508036928
+    second: Steuerung_24
+  - first:
+      213: 2077503478423101950
+    second: Steuerung_25
+  - first:
+      213: 1301031980666421517
+    second: Steuerung_26
+  - first:
+      213: -8130298146587714623
+    second: Steuerung_27
+  - first:
+      213: -6586767951047483743
+    second: Steuerung_28
+  - first:
+      213: -6407858223821503405
+    second: Steuerung_29
+  - first:
+      213: 127548434060936971
+    second: Steuerung_30
+  - first:
+      213: 1879202463799495431
+    second: Steuerung_31
+  - first:
+      213: -7347236394744813613
+    second: Steuerung_32
+  - first:
+      213: -506753235575201169
+    second: Steuerung_33
+  - first:
+      213: -1025988107522917910
+    second: Steuerung_34
+  - first:
+      213: 7513575774897540199
+    second: Steuerung_35
+  - first:
+      213: 3893538236550188040
+    second: Steuerung_36
+  - first:
+      213: -8362392299902901025
+    second: Steuerung_37
+  - first:
+      213: 3463745501237646831
+    second: Steuerung_38
+  - first:
+      213: -3928870478372175027
+    second: Steuerung_39
+  - first:
+      213: -1015883615525033858
+    second: Steuerung_40
+  - first:
+      213: 8133120516983484747
+    second: Steuerung_41
+  - first:
+      213: 1963327193378593566
+    second: Steuerung_42
+  - first:
+      213: -7968723753610753573
+    second: Steuerung_43
+  - first:
+      213: -8789665123679517348
+    second: Steuerung_44
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Steuerung_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1074
+        width: 116
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21171c5b04b445ad0800000000000000
+      internalID: -2714461934098222830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1074
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1183468d049414c70800000000000000
+      internalID: 8953518077046437905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1074
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1370132483dc8260800000000000000
+      internalID: 7101283276933853979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_3
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1077
+        width: 116
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44faddb63cee824f0800000000000000
+      internalID: -853169606290985148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_4
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1074
+        width: 109
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89dee382878489d0800000000000000
+      internalID: -2772942475924416114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_5
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1223
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7385251a3a16bbe30800000000000000
+      internalID: 4520314006410516535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_6
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1074
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf2d92da116933b0800000000000000
+      internalID: -5532283899417382989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7210b7d575a505d90800000000000000
+      internalID: -7111084480341016281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1074
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a874dd44e6e0450800000000000000
+      internalID: 6056899790909180456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_9
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c79cbe638b56b410800000000000000
+      internalID: 1492480946576594880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_10
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1077
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6505a2d3a8392ef0800000000000000
+      internalID: -132512437765864086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f080d9b9336316b60800000000000000
+      internalID: 7737525230081214479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7555f99567915cdc0800000000000000
+      internalID: -3619458729421875881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_13
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1077
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ea5b15232a2ddd0800000000000000
+      internalID: -2462727709215314400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_14
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1074
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840b0ddf37613cff0800000000000000
+      internalID: -17145286143987640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_15
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1074
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6096759bed12390800000000000000
+      internalID: -7844744188285876576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_16
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33791523b0a0b0830800000000000000
+      internalID: 4038332534072907571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_17
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1077
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dac55d589bab140800000000000000
+      internalID: 4736301942594907456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_18
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1074
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826e8e0f1ab13b380800000000000000
+      internalID: -8956784851564304856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_19
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 1077
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45139b601d4c4c400800000000000000
+      internalID: 343615873627009364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_20
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1077
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd6e5c0838bc7870800000000000000
+      internalID: 8682016732528668146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_21
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1077
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ef76dfd3361cff0800000000000000
+      internalID: -17623805637165486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_22
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 479
+        width: 441
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202171780ae3eb8f0800000000000000
+      internalID: -522911647546273278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 502
+        width: 258
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a7940702cfd5570800000000000000
+      internalID: 8457192891524676242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_24
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 492
+        width: 166
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c41cb9ccc44c67f0800000000000000
+      internalID: -618043402508036928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_25
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 452
+        width: 291
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef12c031866c4dc10800000000000000
+      internalID: 2077503478423101950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_26
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 138
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d018b0971b13e0210800000000000000
+      internalID: 1301031980666421517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_27
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 138
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb5f9e69e06b2f80800000000000000
+      internalID: -8130298146587714623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_28
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 141
+        width: 111
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae13eb52791794a0800000000000000
+      internalID: -6586767951047483743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_29
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 141
+        width: 75
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354cd0e45e6b217a0800000000000000
+      internalID: -6407858223821503405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_30
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 287
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b070cdfff9425c100800000000000000
+      internalID: 127548434060936971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_31
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 138
+        width: 37
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bcec33fa4441a10800000000000000
+      internalID: 1879202463799495431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_32
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 138
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7e9622d6f590a90800000000000000
+      internalID: -7347236394744813613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_33
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 138
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62a2ccfd96a7f8f0800000000000000
+      internalID: -506753235575201169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_34
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 138
+        width: 116
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9325b8045f2c1f0800000000000000
+      internalID: -1025988107522917910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_35
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 138
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c8fbfcb55954860800000000000000
+      internalID: 7513575774897540199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_36
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 141
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c89f4b560a80630800000000000000
+      internalID: 3893538236550188040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_37
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 138
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd463d35280d2fb80800000000000000
+      internalID: -8362392299902901025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_38
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 141
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe590a18e22b11030800000000000000
+      internalID: 3463745501237646831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_39
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 138
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d438b10bd19d979c0800000000000000
+      internalID: -3928870478372175027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_40
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 141
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78ad7beb3bd6e1f0800000000000000
+      internalID: -1015883615525033858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_41
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 138
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41fd32e406aed070800000000000000
+      internalID: 8133120516983484747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_42
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 138
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b12332ea32f3b10800000000000000
+      internalID: 1963327193378593566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_43
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 138
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd940d857f7696190800000000000000
+      internalID: -7968723753610753573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steuerung_44
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 141
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c554170c326d40680800000000000000
+      internalID: -8789665123679517348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Steuerung_0: -2714461934098222830
+      Steuerung_1: 8953518077046437905
+      Steuerung_10: -132512437765864086
+      Steuerung_11: 7737525230081214479
+      Steuerung_12: -3619458729421875881
+      Steuerung_13: -2462727709215314400
+      Steuerung_14: -17145286143987640
+      Steuerung_15: -7844744188285876576
+      Steuerung_16: 4038332534072907571
+      Steuerung_17: 4736301942594907456
+      Steuerung_18: -8956784851564304856
+      Steuerung_19: 343615873627009364
+      Steuerung_2: 7101283276933853979
+      Steuerung_20: 8682016732528668146
+      Steuerung_21: -17623805637165486
+      Steuerung_22: -522911647546273278
+      Steuerung_23: 8457192891524676242
+      Steuerung_24: -618043402508036928
+      Steuerung_25: 2077503478423101950
+      Steuerung_26: 1301031980666421517
+      Steuerung_27: -8130298146587714623
+      Steuerung_28: -6586767951047483743
+      Steuerung_29: -6407858223821503405
+      Steuerung_3: -853169606290985148
+      Steuerung_30: 127548434060936971
+      Steuerung_31: 1879202463799495431
+      Steuerung_32: -7347236394744813613
+      Steuerung_33: -506753235575201169
+      Steuerung_34: -1025988107522917910
+      Steuerung_35: 7513575774897540199
+      Steuerung_36: 3893538236550188040
+      Steuerung_37: -8362392299902901025
+      Steuerung_38: 3463745501237646831
+      Steuerung_39: -3928870478372175027
+      Steuerung_4: -2772942475924416114
+      Steuerung_40: -1015883615525033858
+      Steuerung_41: 8133120516983484747
+      Steuerung_42: 1963327193378593566
+      Steuerung_43: -7968723753610753573
+      Steuerung_44: -8789665123679517348
+      Steuerung_5: 4520314006410516535
+      Steuerung_6: -5532283899417382989
+      Steuerung_7: -7111084480341016281
+      Steuerung_8: 6056899790909180456
+      Steuerung_9: 1492480946576594880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

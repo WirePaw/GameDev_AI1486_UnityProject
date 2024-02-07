@@ -1,0 +1,1762 @@
+fileFormatVersion: 2
+guid: ec438aef7388cf94d857e2032152f8a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3050940263223376894
+    second: Gegner_0
+  - first:
+      213: -638918259381818779
+    second: Gegner_1
+  - first:
+      213: -690637274476367263
+    second: Gegner_2
+  - first:
+      213: -1401538950256015999
+    second: Gegner_3
+  - first:
+      213: 6191880190649383330
+    second: Gegner_4
+  - first:
+      213: 8987698387525666354
+    second: Gegner_5
+  - first:
+      213: 3066757512135650639
+    second: Gegner_6
+  - first:
+      213: 911120374620470681
+    second: Gegner_7
+  - first:
+      213: 2459480906980172137
+    second: Gegner_8
+  - first:
+      213: -1976986414164925024
+    second: Gegner_9
+  - first:
+      213: 1892642301496361339
+    second: Gegner_10
+  - first:
+      213: 8246435779153355367
+    second: Gegner_11
+  - first:
+      213: -508425559551137489
+    second: Gegner_12
+  - first:
+      213: 6160775807986083921
+    second: Gegner_13
+  - first:
+      213: -943196266758096519
+    second: Gegner_14
+  - first:
+      213: -6653120958078815854
+    second: Gegner_15
+  - first:
+      213: -7711947984384493500
+    second: Gegner_16
+  - first:
+      213: 6888295715258905248
+    second: Gegner_17
+  - first:
+      213: 1062569977537486439
+    second: Gegner_18
+  - first:
+      213: 3760157541228175756
+    second: Gegner_19
+  - first:
+      213: -3830321198163555049
+    second: Gegner_20
+  - first:
+      213: -4153594309615084847
+    second: Gegner_21
+  - first:
+      213: -4106720582489240404
+    second: Gegner_22
+  - first:
+      213: 9054495983747070436
+    second: Gegner_23
+  - first:
+      213: 6588179993162786022
+    second: Gegner_24
+  - first:
+      213: -5447004015817579958
+    second: Gegner_25
+  - first:
+      213: 6867279642854776036
+    second: Gegner_26
+  - first:
+      213: -7016115617161009065
+    second: Gegner_27
+  - first:
+      213: -3242170998130984472
+    second: Gegner_28
+  - first:
+      213: -4271225451613796932
+    second: Gegner_29
+  - first:
+      213: 708985878878003466
+    second: Gegner_30
+  - first:
+      213: -741986274951639840
+    second: Gegner_31
+  - first:
+      213: -3725717109718137513
+    second: Gegner_32
+  - first:
+      213: -622554716682682868
+    second: Gegner_33
+  - first:
+      213: -1203332027261075336
+    second: Gegner_34
+  - first:
+      213: -528648503150750004
+    second: Gegner_35
+  - first:
+      213: 7268272824755540924
+    second: Gegner_36
+  - first:
+      213: 8379746996766024807
+    second: Gegner_37
+  - first:
+      213: -6088876145154233102
+    second: Gegner_38
+  - first:
+      213: 2838503858046713808
+    second: Gegner_39
+  - first:
+      213: -6276654872330007619
+    second: Gegner_40
+  - first:
+      213: -1693745224614299828
+    second: Gegner_41
+  - first:
+      213: 4067342519244934361
+    second: Gegner_42
+  - first:
+      213: 8590467752548908658
+    second: Gegner_43
+  - first:
+      213: 8571929792161642313
+    second: Gegner_44
+  - first:
+      213: -3596865500243890099
+    second: Gegner_45
+  - first:
+      213: 7214374875623428998
+    second: Gegner_46
+  - first:
+      213: -6512204465283878866
+    second: Gegner_47
+  - first:
+      213: -119238487377287950
+    second: Gegner_48
+  - first:
+      213: -7720653648204458190
+    second: Gegner_49
+  - first:
+      213: 7347901021162086886
+    second: Gegner_50
+  - first:
+      213: 7359376406690589916
+    second: Gegner_51
+  - first:
+      213: -7153960532712476865
+    second: Gegner_52
+  - first:
+      213: 1733286968362409422
+    second: Gegner_53
+  - first:
+      213: -2728284778576279340
+    second: Gegner_54
+  - first:
+      213: 4915564638343202051
+    second: Gegner_55
+  - first:
+      213: 1317585978413072692
+    second: Gegner_56
+  - first:
+      213: -7287670942708444130
+    second: Gegner_57
+  - first:
+      213: -5191899045961821059
+    second: Gegner_58
+  - first:
+      213: 1207979563738502859
+    second: Gegner_59
+  - first:
+      213: -3587381781776035668
+    second: Gegner_60
+  - first:
+      213: -4738268053747757959
+    second: Gegner_61
+  - first:
+      213: 7743524929650420905
+    second: Gegner_62
+  - first:
+      213: -3473922853549462299
+    second: Gegner_63
+  - first:
+      213: -215741071357937532
+    second: Gegner_64
+  - first:
+      213: 7466797090838096020
+    second: Gegner_65
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gegner_0
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1679
+        width: 131
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbbd5c310e175a20800000000000000
+      internalID: 3050940263223376894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_1
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1676
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a290d6a3b1227f0800000000000000
+      internalID: -638918259381818779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_2
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1679
+        width: 104
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162313ade0d5a66f0800000000000000
+      internalID: -690637274476367263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_3
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1676
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185cd1b10cbbc8ce0800000000000000
+      internalID: -1401538950256015999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1825
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a93f673a3afde550800000000000000
+      internalID: 6191880190649383330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_5
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1679
+        width: 100
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23681d88018babc70800000000000000
+      internalID: 8987698387525666354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_6
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1676
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d2b1b75bf4f8a20800000000000000
+      internalID: 3066757512135650639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_7
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1676
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dbfd44723f4ac00800000000000000
+      internalID: 911120374620470681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_8
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1679
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961a860aad4d12220800000000000000
+      internalID: 2459480906980172137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1676
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a52de1b4555094e0800000000000000
+      internalID: -1976986414164925024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_10
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1676
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7181934524044a10800000000000000
+      internalID: 1892642301496361339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_11
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1676
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762e18f46a9317270800000000000000
+      internalID: 8246435779153355367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_12
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1676
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a938b5a5b1f8f0800000000000000
+      internalID: -508425559551137489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1679
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158a4d7c4f87f7550800000000000000
+      internalID: 6160775807986083921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_14
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1676
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979b86e1ef719e2f0800000000000000
+      internalID: -943196266758096519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_15
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1679
+        width: 113
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29171060dbd5ba3a0800000000000000
+      internalID: -6653120958078815854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_16
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 1676
+        width: 116
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448f878fa28a9f490800000000000000
+      internalID: -7711947984384493500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_17
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1679
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a23adf0574289f50800000000000000
+      internalID: 6888295715258905248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_18
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 1676
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76edd1cc3c10fbe00800000000000000
+      internalID: 1062569977537486439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_19
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1679
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8169609c53ce2430800000000000000
+      internalID: 3760157541228175756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_20
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1292
+        width: 229
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d00d70a27f7dac0800000000000000
+      internalID: -3830321198163555049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_21
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1305
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da1f4a6bf77b56c0800000000000000
+      internalID: -4153594309615084847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_22
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1295
+        width: 164
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac81f8736ff107c0800000000000000
+      internalID: -4106720582489240404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_23
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1300
+        width: 134
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9f17bdf1808ad70800000000000000
+      internalID: 9054495983747070436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_24
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1305
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4adc05ccaed6b50800000000000000
+      internalID: 6588179993162786022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_25
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1301
+        width: 212
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42211305ba5864b0800000000000000
+      internalID: -5447004015817579958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_26
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1300
+        width: 134
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec51a5637a7d4f50800000000000000
+      internalID: 6867279642854776036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_27
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 896
+        width: 188
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7582c08e400c1ae90800000000000000
+      internalID: -7016115617161009065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_28
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1042
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9345ba7ae7103d0800000000000000
+      internalID: -3242170998130984472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_29
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 893
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5c3f8e41f89b4c0800000000000000
+      internalID: -4271225451613796932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_30
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1042
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01aa4586e2d6d900800000000000000
+      internalID: 708985878878003466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_31
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 896
+        width: 100
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecca450a6fe3b5f0800000000000000
+      internalID: -741986274951639840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_32
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 896
+        width: 100
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755c7a547089b4cc0800000000000000
+      internalID: -3725717109718137513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_33
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 893
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e72ea98cd3c57f0800000000000000
+      internalID: -622554716682682868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_34
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 896
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870c04095e7ec4fe0800000000000000
+      internalID: -1203332027261075336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_35
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 896
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc658aebcfcd9a8f0800000000000000
+      internalID: -528648503150750004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_36
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 893
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3dd2a00a71ed460800000000000000
+      internalID: 7268272824755540924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_37
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 896
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764a2e9ee77da4470800000000000000
+      internalID: 8379746996766024807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_38
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 893
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc6bbef767ff7ba0800000000000000
+      internalID: -6088876145154233102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_39
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 896
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df33784834646720800000000000000
+      internalID: 2838503858046713808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_40
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 893
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb8b0516a7d4e8a0800000000000000
+      internalID: -6276654872330007619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_41
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 893
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47b9da21bb9e78e0800000000000000
+      internalID: -1693745224614299828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_42
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 893
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dccf67b87a127830800000000000000
+      internalID: 4067342519244934361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_43
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 893
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e302d18e8773770800000000000000
+      internalID: 8590467752548908658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_44
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 896
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947f16ddabc95f670800000000000000
+      internalID: 8571929792161642313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_45
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 853
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40fa1172ed551ec0800000000000000
+      internalID: -3596865500243890099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_46
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 593
+        width: 37
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683990ad9bb9e1460800000000000000
+      internalID: 7214374875623428998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_47
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 742
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20ba0eba8000a5a0800000000000000
+      internalID: -6512204465283878866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_48
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 593
+        width: 78
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4625c3a31685ef0800000000000000
+      internalID: -119238487377287950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_49
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 593
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23713f8a96abad490800000000000000
+      internalID: -7720653648204458190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_50
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 742
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1a8134c0df8f560800000000000000
+      internalID: 7347901021162086886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_51
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 596
+        width: 113
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcee29a9d1c12660800000000000000
+      internalID: 7359376406690589916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_52
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 593
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f228e7cc608bc90800000000000000
+      internalID: -7153960532712476865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_53
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 596
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1e0b705fdd0810800000000000000
+      internalID: 1733286968362409422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_54
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 596
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d80bdee27f232ad0800000000000000
+      internalID: -2728284778576279340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_55
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 593
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3050beaaef7973440800000000000000
+      internalID: 4915564638343202051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_56
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 596
+        width: 70
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c85c6771094210800000000000000
+      internalID: 1317585978413072692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_57
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 593
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e145deba3edfcda90800000000000000
+      internalID: -7287670942708444130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_58
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 593
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7491c7535ba2f7b0800000000000000
+      internalID: -5191899045961821059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_59
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 593
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69098530b93c010800000000000000
+      internalID: 1207979563738502859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_60
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 596
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca01887b64f073ec0800000000000000
+      internalID: -3587381781776035668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_61
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 596
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c88cd3f4a4e3eb0800000000000000
+      internalID: -4738268053747757959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_62
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 90
+        width: 273
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ace13585e6867b60800000000000000
+      internalID: 7743524929650420905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_63
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 205
+        width: 155
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eca21102952acfc0800000000000000
+      internalID: -3473922853549462299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_64
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 210
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4887f3e73a8810df0800000000000000
+      internalID: -215741071357937532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gegner_65
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 205
+        width: 134
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4982351b4646f9760800000000000000
+      internalID: 7466797090838096020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gegner_0: 3050940263223376894
+      Gegner_1: -638918259381818779
+      Gegner_10: 1892642301496361339
+      Gegner_11: 8246435779153355367
+      Gegner_12: -508425559551137489
+      Gegner_13: 6160775807986083921
+      Gegner_14: -943196266758096519
+      Gegner_15: -6653120958078815854
+      Gegner_16: -7711947984384493500
+      Gegner_17: 6888295715258905248
+      Gegner_18: 1062569977537486439
+      Gegner_19: 3760157541228175756
+      Gegner_2: -690637274476367263
+      Gegner_20: -3830321198163555049
+      Gegner_21: -4153594309615084847
+      Gegner_22: -4106720582489240404
+      Gegner_23: 9054495983747070436
+      Gegner_24: 6588179993162786022
+      Gegner_25: -5447004015817579958
+      Gegner_26: 6867279642854776036
+      Gegner_27: -7016115617161009065
+      Gegner_28: -3242170998130984472
+      Gegner_29: -4271225451613796932
+      Gegner_3: -1401538950256015999
+      Gegner_30: 708985878878003466
+      Gegner_31: -741986274951639840
+      Gegner_32: -3725717109718137513
+      Gegner_33: -622554716682682868
+      Gegner_34: -1203332027261075336
+      Gegner_35: -528648503150750004
+      Gegner_36: 7268272824755540924
+      Gegner_37: 8379746996766024807
+      Gegner_38: -6088876145154233102
+      Gegner_39: 2838503858046713808
+      Gegner_4: 6191880190649383330
+      Gegner_40: -6276654872330007619
+      Gegner_41: -1693745224614299828
+      Gegner_42: 4067342519244934361
+      Gegner_43: 8590467752548908658
+      Gegner_44: 8571929792161642313
+      Gegner_45: -3596865500243890099
+      Gegner_46: 7214374875623428998
+      Gegner_47: -6512204465283878866
+      Gegner_48: -119238487377287950
+      Gegner_49: -7720653648204458190
+      Gegner_5: 8987698387525666354
+      Gegner_50: 7347901021162086886
+      Gegner_51: 7359376406690589916
+      Gegner_52: -7153960532712476865
+      Gegner_53: 1733286968362409422
+      Gegner_54: -2728284778576279340
+      Gegner_55: 4915564638343202051
+      Gegner_56: 1317585978413072692
+      Gegner_57: -7287670942708444130
+      Gegner_58: -5191899045961821059
+      Gegner_59: 1207979563738502859
+      Gegner_6: 3066757512135650639
+      Gegner_60: -3587381781776035668
+      Gegner_61: -4738268053747757959
+      Gegner_62: 7743524929650420905
+      Gegner_63: -3473922853549462299
+      Gegner_64: -215741071357937532
+      Gegner_65: 7466797090838096020
+      Gegner_7: 911120374620470681
+      Gegner_8: 2459480906980172137
+      Gegner_9: -1976986414164925024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

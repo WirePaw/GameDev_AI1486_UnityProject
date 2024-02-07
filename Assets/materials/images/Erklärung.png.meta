@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: f2cd105e82d9dd9439e77397b74c8a81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6623381906354145173
+    second: "Erkl\xE4rung_0"
+  - first:
+      213: -6679697904120966780
+    second: "Erkl\xE4rung_1"
+  - first:
+      213: -387234223633852062
+    second: "Erkl\xE4rung_2"
+  - first:
+      213: -3686101052239688211
+    second: "Erkl\xE4rung_3"
+  - first:
+      213: 5693788358360452542
+    second: "Erkl\xE4rung_4"
+  - first:
+      213: -7113384339378714051
+    second: "Erkl\xE4rung_5"
+  - first:
+      213: 1166811214451156114
+    second: "Erkl\xE4rung_6"
+  - first:
+      213: 3409966069877388935
+    second: "Erkl\xE4rung_7"
+  - first:
+      213: 4001763101520466979
+    second: "Erkl\xE4rung_8"
+  - first:
+      213: -6228097675135279438
+    second: "Erkl\xE4rung_9"
+  - first:
+      213: -6968388069273206201
+    second: "Erkl\xE4rung_10"
+  - first:
+      213: 4161939211615255196
+    second: "Erkl\xE4rung_11"
+  - first:
+      213: 6777488052580805610
+    second: "Erkl\xE4rung_12"
+  - first:
+      213: -3611380132147628344
+    second: "Erkl\xE4rung_13"
+  - first:
+      213: -8712792840004453385
+    second: "Erkl\xE4rung_14"
+  - first:
+      213: 238446290917892939
+    second: "Erkl\xE4rung_15"
+  - first:
+      213: 2532479761158560052
+    second: "Erkl\xE4rung_16"
+  - first:
+      213: -4907372440711569955
+    second: "Erkl\xE4rung_17"
+  - first:
+      213: -3726342617578554036
+    second: "Erkl\xE4rung_18"
+  - first:
+      213: 6272071876283373654
+    second: "Erkl\xE4rung_19"
+  - first:
+      213: 2253737393058804976
+    second: "Erkl\xE4rung_20"
+  - first:
+      213: -4140050796198272656
+    second: "Erkl\xE4rung_21"
+  - first:
+      213: -7135849383886394684
+    second: "Erkl\xE4rung_22"
+  - first:
+      213: 4369978750989277629
+    second: "Erkl\xE4rung_23"
+  - first:
+      213: -3333286191012371773
+    second: "Erkl\xE4rung_24"
+  - first:
+      213: -5324101165407796814
+    second: "Erkl\xE4rung_25"
+  - first:
+      213: -4593299070248827142
+    second: "Erkl\xE4rung_26"
+  - first:
+      213: 2424619431204683401
+    second: "Erkl\xE4rung_27"
+  - first:
+      213: -6778310676226153224
+    second: "Erkl\xE4rung_28"
+  - first:
+      213: 3501791975533444198
+    second: "Erkl\xE4rung_29"
+  - first:
+      213: 1189251764689214858
+    second: "Erkl\xE4rung_30"
+  - first:
+      213: -7163492949501683840
+    second: "Erkl\xE4rung_31"
+  - first:
+      213: -2639671450776454020
+    second: "Erkl\xE4rung_32"
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_0"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 874
+        width: 116
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f2049f350514a0800000000000000
+      internalID: -6623381906354145173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_1"
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 874
+        width: 37
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481d2f19522fc43a0800000000000000
+      internalID: -6679697904120966780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_2"
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1023
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2691e67768440aaf0800000000000000
+      internalID: -387234223633852062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_3"
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1023
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded4f0f6f9658dcc0800000000000000
+      internalID: -3686101052239688211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_4"
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 874
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd445e4856640f40800000000000000
+      internalID: 5693788358360452542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_5"
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 877
+        width: 117
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a4184b1ae284d90800000000000000
+      internalID: -7113384339378714051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_6"
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 874
+        width: 37
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294ad451e98513010800000000000000
+      internalID: 1166811214451156114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_7"
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 874
+        width: 37
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863d23e212a25f20800000000000000
+      internalID: 3409966069877388935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_8"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 874
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324946da65e198730800000000000000
+      internalID: 4001763101520466979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_9"
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 877
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be102f892a5199a0800000000000000
+      internalID: -6228097675135279438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_10"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 877
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74286e998ff4b4f90800000000000000
+      internalID: -6968388069273206201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_11"
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 874
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ab81d79ad22c930800000000000000
+      internalID: 4161939211615255196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_12"
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 877
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb6883a9797e0e50800000000000000
+      internalID: 6777488052580805610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_13"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 877
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ff6a57ecc1edc0800000000000000
+      internalID: -3611380132147628344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_14"
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 822
+        width: 54
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbb7f90311f51780800000000000000
+      internalID: -8712792840004453385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_15"
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 874
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43ab2463a12f4300800000000000000
+      internalID: 238446290917892939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_16"
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 874
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439d8b4dcec252320800000000000000
+      internalID: 2532479761158560052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_17"
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 877
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd58daf3c285ebb0800000000000000
+      internalID: -4907372440711569955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_18"
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 874
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4db4dfd12f594cc0800000000000000
+      internalID: -3726342617578554036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_19"
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 874
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658969ff320ea0750800000000000000
+      internalID: 6272071876283373654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_20"
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 877
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4f84ad732e64f10800000000000000
+      internalID: 2253737393058804976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_21"
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 874
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071678c5cb59b86c0800000000000000
+      internalID: -4140050796198272656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_22"
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 874
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cae2ceeace58fc90800000000000000
+      internalID: -7135849383886394684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_23"
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 443
+        width: 239
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db998b8558845ac30800000000000000
+      internalID: 4369978750989277629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_24"
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 464
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c22ef9aed9cdb1d0800000000000000
+      internalID: -3333286191012371773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_25"
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 459
+        width: 170
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b100a7c23efc16b0800000000000000
+      internalID: -5324101165407796814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_26"
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 459
+        width: 170
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6cfaaf4d25140c0800000000000000
+      internalID: -4593299070248827142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_27"
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 464
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ef678c68af5a120800000000000000
+      internalID: 2424619431204683401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_28"
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 458
+        width: 156
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f46d4e5a5a9ee1a0800000000000000
+      internalID: -6778310676226153224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_29"
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 287
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cfbfa9f3dd89030800000000000000
+      internalID: 3501791975533444198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_30"
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 138
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d9ec6dd22118010800000000000000
+      internalID: 1189251764689214858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_31"
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 141
+        width: 24
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087dfe1cd19269c90800000000000000
+      internalID: -7163492949501683840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Erkl\xE4rung_32"
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 141
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cbab41dc00e5bd0800000000000000
+      internalID: -2639671450776454020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Erkl\xE4rung_0": -6623381906354145173
+      "Erkl\xE4rung_1": -6679697904120966780
+      "Erkl\xE4rung_10": -6968388069273206201
+      "Erkl\xE4rung_11": 4161939211615255196
+      "Erkl\xE4rung_12": 6777488052580805610
+      "Erkl\xE4rung_13": -3611380132147628344
+      "Erkl\xE4rung_14": -8712792840004453385
+      "Erkl\xE4rung_15": 238446290917892939
+      "Erkl\xE4rung_16": 2532479761158560052
+      "Erkl\xE4rung_17": -4907372440711569955
+      "Erkl\xE4rung_18": -3726342617578554036
+      "Erkl\xE4rung_19": 6272071876283373654
+      "Erkl\xE4rung_2": -387234223633852062
+      "Erkl\xE4rung_20": 2253737393058804976
+      "Erkl\xE4rung_21": -4140050796198272656
+      "Erkl\xE4rung_22": -7135849383886394684
+      "Erkl\xE4rung_23": 4369978750989277629
+      "Erkl\xE4rung_24": -3333286191012371773
+      "Erkl\xE4rung_25": -5324101165407796814
+      "Erkl\xE4rung_26": -4593299070248827142
+      "Erkl\xE4rung_27": 2424619431204683401
+      "Erkl\xE4rung_28": -6778310676226153224
+      "Erkl\xE4rung_29": 3501791975533444198
+      "Erkl\xE4rung_3": -3686101052239688211
+      "Erkl\xE4rung_30": 1189251764689214858
+      "Erkl\xE4rung_31": -7163492949501683840
+      "Erkl\xE4rung_32": -2639671450776454020
+      "Erkl\xE4rung_4": 5693788358360452542
+      "Erkl\xE4rung_5": -7113384339378714051
+      "Erkl\xE4rung_6": 1166811214451156114
+      "Erkl\xE4rung_7": 3409966069877388935
+      "Erkl\xE4rung_8": 4001763101520466979
+      "Erkl\xE4rung_9": -6228097675135279438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
