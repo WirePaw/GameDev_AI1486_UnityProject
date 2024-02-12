@@ -27,4 +27,11 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void debugGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        //FindFirstObjectByType<UIManager>().refreshKey();
+        FindFirstObjectByType<AudioManager>().Stop("background_menu");
+        FindFirstObjectByType<AudioManager>().Play("background_level");
+    }
 }

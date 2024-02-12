@@ -29,17 +29,16 @@ public class UIManager : MonoBehaviour
 
     public void Awake()
     {
-        DontDestroyOnLoad(gameObject);
         loadingCanvasGroup = loadingMenu.GetComponent<CanvasGroup>();
 
-        pauseButtons = new List<GameObject>();
+        /*pauseButtons = new List<GameObject>();
         foreach (Transform child in pauseMenu.transform)
         {
             if (child.CompareTag("MenuButton"))
             {
                 pauseButtons.Add(child.gameObject);
             }
-        }
+        }*/
         pauseMenu.SetActive(false);
 
         if (loadingMenu.activeInHierarchy)
@@ -60,7 +59,7 @@ public class UIManager : MonoBehaviour
                 pauseMenu.SetActive(true);
             } else
             {
-                Time.timeScale = 1f;
+                Time.timeScale = 1f;                
                 FindFirstObjectByType<AudioManager>().Play("background_level");
                 pauseMenu.SetActive(false);
             }
@@ -79,11 +78,13 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         FindFirstObjectByType<AudioManager>().Play("background_level");
         pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        Destroy(gameObject);
     }
 
     public void mainMenuButton()
     {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("MainMenu");
         FindFirstObjectByType<AudioManager>().Play("background_menu");
         pauseMenu.SetActive(false);
     }
@@ -194,20 +195,21 @@ public class UIManager : MonoBehaviour
     //key control
     public void foundKey(int numberOfKeys, int maxNumberOfKeys)
     {
-        keys[maxNumberOfKeys - numberOfKeys].GetComponent<Image>().sprite = keySprite;
+        keys[maxNumberOfKeys - numberOfKeys].GetComponent<Image>().overrideSprite = keySprite;
     }
 
     public void refreshKey()
     {
         for (int i = 0; i < keys.Length; i++)
         {
-            if (i > GameObject.FindGameObjectsWithTag("Key").Length - 1)
+            if (i > LevelManager.numberOfKeys - 1)
             {
-                keys[i].gameObject.SetActive(false);
+                keys[i].SetActive(false);
+                keys[i].GetComponent<Image>().overrideSprite = null;
             } else
             {
-                keys[i].gameObject.SetActive(true);
-                keys[i].GetComponent<Image>().sprite = lostKeySprite;
+                keys[i].SetActive(true);
+                keys[i].GetComponent<Image>().overrideSprite = lostKeySprite;
             }
         }
     }

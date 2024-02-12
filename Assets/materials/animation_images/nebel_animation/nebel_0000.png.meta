@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nebel_0000_0: 2146815944173436052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

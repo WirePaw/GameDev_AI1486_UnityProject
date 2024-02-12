@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 83d02ca31f810bf4abafa88f211f6e29
+guid: 6a56d786adecd7149af26c7938d07737
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7093359660765714433
-    second: light_0011_0
+      213: 5760560719477811623
+    second: wand_cursor 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 7
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: light_0011_0
+      name: wand_cursor 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4100
-        height: 2480
+        x: 17
+        y: 4
+        width: 250
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 108960c770da07260800000000000000
-      internalID: 7093359660765714433
+      spriteID: 7a92b8f147f91ff40800000000000000
+      internalID: 5760560719477811623
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      light_0011_0: 7093359660765714433
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

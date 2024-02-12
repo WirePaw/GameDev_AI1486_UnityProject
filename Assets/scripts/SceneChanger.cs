@@ -15,6 +15,7 @@ public class SceneChanger : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             FindFirstObjectByType<AudioManager>().Play("background_level");
+            //FindFirstObjectByType<UIManager>().refreshKey();
         }
         
     }
