@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
         {
             // kill player
             FindFirstObjectByType<AudioManager>().Play("fail_level");
-            Destroy(GameObject.FindGameObjectWithTag("Player"));
+            SceneManager.LoadScene("XX_EndCutscene");
         }
         else
         {

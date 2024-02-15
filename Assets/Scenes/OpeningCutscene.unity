@@ -314,6 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeTime: 12.6
+  sceneToChange: Raum_00_Tutorial
 --- !u!4 &107690516
 Transform:
   m_ObjectHideFlags: 0

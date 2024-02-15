@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public float changeTime;
+    public string sceneToChange;
 
     // Update is called once per frame
     private void Update()
@@ -13,7 +14,7 @@ public class SceneChanger : MonoBehaviour
         changeTime -= Time.deltaTime;
         if (changeTime <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(sceneToChange);
             FindFirstObjectByType<AudioManager>().Play("background_level");
             //FindFirstObjectByType<UIManager>().refreshKey();
         }

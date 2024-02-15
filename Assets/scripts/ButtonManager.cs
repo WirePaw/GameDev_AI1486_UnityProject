@@ -30,6 +30,7 @@ public class ButtonManager : MonoBehaviour
     public void debugGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        //SceneManager.LoadScene("XX_EndCutscene");
         //FindFirstObjectByType<UIManager>().refreshKey();
         FindFirstObjectByType<AudioManager>().Stop("background_menu");
         FindFirstObjectByType<AudioManager>().Play("background_level");
