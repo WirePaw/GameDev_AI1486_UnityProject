@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Can_exit_from : MonoBehaviour
+public class CanExitFrom : MonoBehaviour
 {
     BoxCollider2D col;
 
@@ -13,14 +13,14 @@ public class Can_exit_from : MonoBehaviour
     }
     private void Update()
     {
-        col.isTrigger = LevelManager.doorIsOpen;
+        col.isTrigger = _LevelManager.doorIsOpen;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            LevelManager.advanceLevel();
+            _LevelManager.advanceLevel();
         }
     }
     

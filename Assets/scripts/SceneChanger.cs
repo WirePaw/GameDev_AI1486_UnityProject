@@ -15,7 +15,7 @@ public class SceneChanger : MonoBehaviour
         if (changeTime <= 0)
         {
             SceneManager.LoadScene(sceneToChange);
-            FindFirstObjectByType<AudioManager>().Play("background_level");
+            FindFirstObjectByType<_AudioManager>().Play("background_level");
             //FindFirstObjectByType<UIManager>().refreshKey();
         }
         

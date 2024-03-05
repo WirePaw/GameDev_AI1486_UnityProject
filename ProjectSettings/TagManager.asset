@@ -16,6 +16,7 @@ TagManager:
   - MenuScreen
   - UI
   - Heart
+  - Sight
   layers:
   - Default
   - TransparentFX

@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.Audio;
 using System;
 
-public class AudioManager : MonoBehaviour
+public class _AudioManager : MonoBehaviour
 {
     public AudioSound[] sounds;
-    public static AudioManager instance;
+    public static _AudioManager instance;
 
     // Start is called before the first frame update
     void Awake()

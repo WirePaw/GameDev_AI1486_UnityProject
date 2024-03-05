@@ -8,17 +8,75 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class _UIManager : MonoBehaviour
 {
+    //attributes
+
+
+    //references
+    public GameObject loadingScreen;
+    private CanvasGroup loadingGroup;
+
+    public GameObject pauseScreen;
+
+    //methods (actions?)
+
+    void MoveToLevel()
+    {
+
+    }
+
+    void StartLevel()
+    {
+
+    }
+
+    void SetHearts(int lifes)
+    {
+
+    }
+
+    void GainHeart()
+    {
+        SetHearts(_LevelManager.playerLifes + 1);
+        //TODO need to be different than LoseHeart
+    }
+
+    void LoseHeart()
+    {
+        SetHearts(_LevelManager.playerLifes - 1);
+        //TODO need to be different than GainHeart
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // loading screen
     public GameObject loadingMenu; // set in editor
     private CanvasGroup loadingCanvasGroup;
     public float loadingSpeed;
+    public bool canLoad;
 
     // pause menu
     public GameObject pauseMenu; // set in editor
     private List<GameObject> pauseButtons;
-    public bool canLoad;
 
     //player status
     public GameObject[] hearts;
@@ -55,12 +113,12 @@ public class UIManager : MonoBehaviour
             if (!pauseMenu.activeSelf)
             {
                 Time.timeScale = 0f;
-                FindFirstObjectByType<AudioManager>().Pause("background_level");
+                FindFirstObjectByType<_AudioManager>().Pause("background_level");
                 pauseMenu.SetActive(true);
             } else
             {
                 Time.timeScale = 1f;                
-                FindFirstObjectByType<AudioManager>().Play("background_level");
+                FindFirstObjectByType<_AudioManager>().Play("background_level");
                 pauseMenu.SetActive(false);
             }
         }
@@ -69,14 +127,14 @@ public class UIManager : MonoBehaviour
     public void returnGameButton()
     {
         Time.timeScale = 1f;
-        FindFirstObjectByType<AudioManager>().Play("background_level");
+        FindFirstObjectByType<_AudioManager>().Play("background_level");
         pauseMenu.SetActive(false);
     }
 
     public void restartLevelButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        FindFirstObjectByType<AudioManager>().Play("background_level");
+        FindFirstObjectByType<_AudioManager>().Play("background_level");
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         Destroy(gameObject);
@@ -85,7 +143,7 @@ public class UIManager : MonoBehaviour
     public void mainMenuButton()
     {
         SceneManager.LoadScene("MainMenu");
-        FindFirstObjectByType<AudioManager>().Play("background_menu");
+        FindFirstObjectByType<_AudioManager>().Play("background_menu");
         pauseMenu.SetActive(false);
     }
 
@@ -110,14 +168,14 @@ public class UIManager : MonoBehaviour
     public void startLevel() 
     { 
         StartCoroutine(fadeOutLoading());
-        LevelManager.isActive = true;
+        _LevelManager.isActive = true;
     }
 
     public IEnumerator fadeInLoading()
     {
         loadingCanvasGroup.alpha = 0;
         loadingMenu.SetActive(true);
-        LevelManager.isActive = false;
+        _LevelManager.isActive = false;
         while(loadingCanvasGroup.alpha < 1)
         {
             loadingCanvasGroup.alpha += loadingSpeed * Time.deltaTime;
@@ -202,7 +260,7 @@ public class UIManager : MonoBehaviour
     {
         for (int i = 0; i < keys.Length; i++)
         {
-            if (i > LevelManager.numberOfKeys - 1)
+            if (i > _LevelManager.numberOfKeys - 1)
             {
                 keys[i].SetActive(false);
                 keys[i].GetComponent<Image>().overrideSprite = null;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 
-public class Can_be_collected : MonoBehaviour
+public class CanBeCollected : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,8 +14,8 @@ public class Can_be_collected : MonoBehaviour
         {
             if(gameObject.tag.Equals("Key"))
             {
-                LevelManager.decreaseNeededKeys();
-                FindFirstObjectByType<AudioManager>().Play("key");
+                _LevelManager.decreaseNeededKeys();
+                FindFirstObjectByType<_AudioManager>().Play("key");
             }
             Destroy(this.gameObject);
         }

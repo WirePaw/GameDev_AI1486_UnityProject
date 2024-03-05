@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonManager : MonoBehaviour
+public class _ButtonManager : MonoBehaviour
 {
     [RuntimeInitializeOnLoadMethod]
     static void OnRuntimeMethodLoad()
     {
-        FindFirstObjectByType<AudioManager>().Play("background_menu");
+        FindFirstObjectByType<_AudioManager>().Play("background_menu");
     }
 
     public void startGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
-        FindFirstObjectByType<AudioManager>().Stop("background_menu");
+        FindFirstObjectByType<_AudioManager>().Stop("background_menu");
     }
 
     public void changeVolume(float volume)
     {
-        FindFirstObjectByType<AudioManager>().setVolume(volume);
+        FindFirstObjectByType<_AudioManager>().setVolume(volume);
     }
 
     public void quitGame()
@@ -32,7 +32,7 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         //SceneManager.LoadScene("XX_EndCutscene");
         //FindFirstObjectByType<UIManager>().refreshKey();
-        FindFirstObjectByType<AudioManager>().Stop("background_menu");
-        FindFirstObjectByType<AudioManager>().Play("background_level");
+        FindFirstObjectByType<_AudioManager>().Stop("background_menu");
+        FindFirstObjectByType<_AudioManager>().Play("background_level");
     }
 }

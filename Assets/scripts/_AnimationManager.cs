@@ -4,8 +4,18 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-public class AnimationManager : MonoBehaviour
+public class _AnimationManager : MonoBehaviour
 {
+    //attributes
+
+
+    //references
+
+
+    //methods (actions?)
+
+
+
     public string type; //wether if player- or enemy-sprites should be used
     public int state;
     //needs to be reworked
@@ -62,7 +72,7 @@ public class AnimationManager : MonoBehaviour
         }
         state = 0;
 
-        if (LevelManager.doorIsOpen)
+        if (_LevelManager.doorIsOpen)
         {
             anim2.SetBool("DoorIsOpen", true);
         }

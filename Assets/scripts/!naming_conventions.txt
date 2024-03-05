@@ -3,8 +3,20 @@
 	- "...at start" = acts at start of the scene
 
 Exceptions:
-- "PlayerBehaviour" = manages attributes, spawnpoints, etc. and reacts on met criteria
-	- does not include controlling the player itself
+- AudioManager
+- AnimationManager
+- LevelManager
+- PlayerManager
+- EnemyManager
+
+
 - "AnimationBehaviour" = managaes sprite animation, orientation, etc.
 	- doesn't react on other objects
 	- requires full spritesheet (or folder?) to provide animation
+
+
+reworked scripts:
+
+- PlayerManager
+	- CanBeControlled
+	- WillSpawnAtStart
