@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 2332541117120854452}
   m_Layer: 5
   m_Name: key3
-  m_TagString: Untagged
+  m_TagString: Key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 4034444548315811666}
   m_Layer: 5
   m_Name: key2
-  m_TagString: Untagged
+  m_TagString: Key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1008,10 +1008,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73271e7dce7771642ad2bff29b539f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
   loadingMenu: {fileID: 1469306509860231069}
   loadingSpeed: 2
-  pauseMenu: {fileID: 8419328677877739885}
   canLoad: 0
+  pauseMenu: {fileID: 8419328677877739885}
   hearts:
   - {fileID: 6054392944004741521}
   - {fileID: 8570663335586654961}
@@ -1035,7 +1037,7 @@ GameObject:
   - component: {fileID: 3559363624991720805}
   m_Layer: 5
   m_Name: key1
-  m_TagString: Untagged
+  m_TagString: Key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

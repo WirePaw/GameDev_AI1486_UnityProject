@@ -13,14 +13,14 @@ public class CanExitFrom : MonoBehaviour
     }
     private void Update()
     {
-        col.isTrigger = _LevelManager.doorIsOpen;
+        col.isTrigger = _LevelManager.isDoorOpen;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            _LevelManager.advanceLevel();
+            _LevelManager.AdvanceLevel();
         }
     }
     

@@ -72,7 +72,7 @@ public class _AnimationManager : MonoBehaviour
         }
         state = 0;
 
-        if (_LevelManager.doorIsOpen)
+        if (_LevelManager.isDoorOpen)
         {
             anim2.SetBool("DoorIsOpen", true);
         }

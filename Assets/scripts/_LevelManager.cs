@@ -5,81 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class _LevelManager : MonoBehaviour
 {
-    //attributes
+    // level attributes
     public static bool isDoorOpen;
     public static int currentKeys;
     public static int maxKeys;
-    public static int playerLifes;
-
-    //references
-    _PlayerManager player;
-
-    //methods (actions?)
-    public static void DecreaseKeys()
-    {
-
-    }
-
-    public static void DecreaseLife()
-    {
-
-    }
-
-    public static void MoveToLevel(int levelID)
-    {
-
-    }
-
-    public static void AdvanceLevel()
-    {
-        MoveToLevel(SceneManager.GetActiveScene().buildIndex+1);
-    }
-
-    public static void RecedeLevel()
-    {
-        if(SceneManager.GetActiveScene().buildIndex > 0)
-        {
-            MoveToLevel(SceneManager.GetActiveScene().buildIndex-1);
-        }
-    }
-
-    public static void RestartLevel()
-    {
-        MoveToLevel(SceneManager.GetActiveScene().buildIndex);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // level attributes
-    public static bool doorIsOpen;
-    public static int numberOfKeys;
-    public static int maxNumberOfKeys;
-    public static int numberOfEnemies;
 
     // player attributes
     public static int life = 3; // lifes of player across every level
@@ -90,18 +19,18 @@ public class _LevelManager : MonoBehaviour
     // Entity interaction
     public static void decreaseNeededKeys()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().foundKey(numberOfKeys, maxNumberOfKeys);
-        numberOfKeys--;
-        if (numberOfKeys <= 0)
+        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().foundKey(currentKeys, maxKeys);
+        currentKeys--;
+        if (currentKeys <= 0)
         {
             FindFirstObjectByType<_AudioManager>().Play("clear_level");
-            doorIsOpen = true;
+            isDoorOpen = true;
         }
     }
     public static void loseLife()
     {
         life--;
-        _LevelManager.isActive = false;
+
         GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().loseHeart();
         if (life <= 0)
         {
@@ -118,22 +47,21 @@ public class _LevelManager : MonoBehaviour
 
     // Level interaction
     //TODO when advancing level, fadeInLoading doesn't work -> no black screen to initiate new scene (loading time is too short to notice)
-    //TODO find better way to reference UIManager in LevelManager -> possibly via stati ui-attribute?
-    public static void advanceLevel()
+    public static void AdvanceLevel()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().advanceLevel();
+        MovetoLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public static void recedeLevel()
+    public static void RecedeLevel()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().recedeLevel();
+        MovetoLevel(SceneManager.GetActiveScene().buildIndex - 1);
     }
-    public static void restartLevel()
+    public static void RestartLevel()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().restartLevel();
+        MovetoLevel(SceneManager.GetActiveScene().buildIndex);
     }
-    public static void movetoLevel(int nextIndex)
+    public static void MovetoLevel(int nextIndex)
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().movetoLevel(nextIndex);
+        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().MovetoLevel(nextIndex);
     }
 
     // Scene interaction
@@ -152,8 +80,7 @@ public class _LevelManager : MonoBehaviour
     private void OnGUI()
     {
         GUI.Label(new Rect(10, 10, 300, 40), "Life: " + _LevelManager.life);
-        GUI.Label(new Rect(10, 35, 300, 20), "doorIsOpen: " + _LevelManager.doorIsOpen);
-        GUI.Label(new Rect(10, 60, 300, 20), "numberOfKeys: " + _LevelManager.numberOfKeys);
-        GUI.Label(new Rect(10, 85, 300, 20), "numberOfEnemies: " + _LevelManager.numberOfEnemies);
+        GUI.Label(new Rect(10, 35, 300, 20), "doorIsOpen: " + _LevelManager.isDoorOpen);
+        GUI.Label(new Rect(10, 60, 300, 20), "numberOfKeys: " + _LevelManager.currentKeys);
     }
 }

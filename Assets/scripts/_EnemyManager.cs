@@ -16,6 +16,7 @@ public class _EnemyManager : MonoBehaviour
 
     //references
     CanFollowPath CFP;
+    _AnimationManager AM;
     LayerMask layerMask;
     public GameObject sprite; // set in editor
     public GameObject sight; // set in editor
@@ -76,7 +77,7 @@ public class _EnemyManager : MonoBehaviour
                 {
                     if (_PlayerManager.isActive)
                     {
-                        _LevelManager.DecreaseLife();
+                        _LevelManager.loseLife();
                     }
                 }
             }
@@ -110,6 +111,7 @@ public class _EnemyManager : MonoBehaviour
     private void Awake()
     {
         CFP = GetComponentInChildren<CanFollowPath>();
+        AM = sprite.GetComponent<_AnimationManager>();
         UpdateLookDirection();
     }
 
@@ -124,7 +126,14 @@ public class _EnemyManager : MonoBehaviour
         if(CFP.WaitingHasFinished())
         {
             LookAt(CFP.GetNextPosition());
-            CFP.MoveToWaypoint();
+            if(!isTurning)
+            {
+                CFP.MoveToWaypoint();
+                if (AM != null)
+                {
+                    AM.setState(lookDirection);
+                }
+            }
         }
     }
 }

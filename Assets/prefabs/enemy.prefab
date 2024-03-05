@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 119512850301825420}
   - component: {fileID: 2448414018026842435}
   - component: {fileID: 4160019164367547212}
+  - component: {fileID: 2122668215431846469}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Sprite
@@ -124,6 +125,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2122668215431846469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105167264907256317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5779391fd5b30419fadeb7e738a0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 
+  state: 0
+  up: {fileID: 2592271833337211837, guid: f33fb196239a7514da484bcb3b8f0c5e, type: 3}
+  down: {fileID: 297761703447499198, guid: 6f674c6800d362342b7457593fa4434a, type: 3}
+  left: {fileID: 5965833818763761440, guid: 1b83e463dfbaf954cbe994549d9a1602, type: 3}
+  right: {fileID: 381587607996107821, guid: 30ccbd60c4d0ec74fb87cbb8afd86b91, type: 3}
+  anim2: {fileID: 0}
 --- !u!1 &2322408435796456817
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isIdleing: 0
   isTurning: 0
-  turnSpeed: 0
+  turnSpeed: 5
   sightlength: 0
   sightwidth: 0
   sprite: {fileID: 1105167264907256317}
@@ -392,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84e45fa2bb36834ba1b75214b34f4c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
   currentWaypoint: 0
   isMoving: 0
 --- !u!1 &8544241561976651654

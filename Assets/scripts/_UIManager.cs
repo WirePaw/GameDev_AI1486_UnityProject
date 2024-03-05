@@ -10,64 +10,6 @@ using UnityEngine.UI;
 
 public class _UIManager : MonoBehaviour
 {
-    //attributes
-
-
-    //references
-    public GameObject loadingScreen;
-    private CanvasGroup loadingGroup;
-
-    public GameObject pauseScreen;
-
-    //methods (actions?)
-
-    void MoveToLevel()
-    {
-
-    }
-
-    void StartLevel()
-    {
-
-    }
-
-    void SetHearts(int lifes)
-    {
-
-    }
-
-    void GainHeart()
-    {
-        SetHearts(_LevelManager.playerLifes + 1);
-        //TODO need to be different than LoseHeart
-    }
-
-    void LoseHeart()
-    {
-        SetHearts(_LevelManager.playerLifes - 1);
-        //TODO need to be different than GainHeart
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // loading screen
     public GameObject loadingMenu; // set in editor
     private CanvasGroup loadingCanvasGroup;
@@ -84,46 +26,24 @@ public class _UIManager : MonoBehaviour
     public Sprite keySprite;
     public Sprite lostKeySprite;
 
+    //methods (actions?)
 
-    public void Awake()
+    //level-methods
+
+    public void MovetoLevel(int buildIndex)
     {
-        loadingCanvasGroup = loadingMenu.GetComponent<CanvasGroup>();
-
-        /*pauseButtons = new List<GameObject>();
-        foreach (Transform child in pauseMenu.transform)
-        {
-            if (child.CompareTag("MenuButton"))
-            {
-                pauseButtons.Add(child.gameObject);
-            }
-        }*/
-        pauseMenu.SetActive(false);
-
-        if (loadingMenu.activeInHierarchy)
-        {
-            StartCoroutine(fadeOutLoading());
-        }
-
+        StartCoroutine(LoadLevel(buildIndex));
     }
 
-    private void Update()
+    public void startLevel()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (!pauseMenu.activeSelf)
-            {
-                Time.timeScale = 0f;
-                FindFirstObjectByType<_AudioManager>().Pause("background_level");
-                pauseMenu.SetActive(true);
-            } else
-            {
-                Time.timeScale = 1f;                
-                FindFirstObjectByType<_AudioManager>().Play("background_level");
-                pauseMenu.SetActive(false);
-            }
-        }
+        //TODO leave main menu and enter nextLevel
+        _LevelManager.isActive = true;
     }
 
+    //UI-methods
+
+    //buttons
     public void returnGameButton()
     {
         Time.timeScale = 1f;
@@ -147,88 +67,11 @@ public class _UIManager : MonoBehaviour
         pauseMenu.SetActive(false);
     }
 
-
-    public void advanceLevel()
-    {
-        StartCoroutine(AsyncLoadNextScene(SceneManager.GetActiveScene().buildIndex + 1));
-    }
-    public void recedeLevel()
-    {
-        StartCoroutine(AsyncLoadNextScene(SceneManager.GetActiveScene().buildIndex - 1));
-    }
-    public void restartLevel()
-    {
-        StartCoroutine(AsyncLoadNextScene(SceneManager.GetActiveScene().buildIndex));
-    }
-    public void movetoLevel(int nextIndex)
-    {
-        StartCoroutine(AsyncLoadNextScene(nextIndex));
-    }
-
-    public void startLevel() 
-    { 
-        StartCoroutine(fadeOutLoading());
-        _LevelManager.isActive = true;
-    }
-
-    public IEnumerator fadeInLoading()
-    {
-        loadingCanvasGroup.alpha = 0;
-        loadingMenu.SetActive(true);
-        _LevelManager.isActive = false;
-        while(loadingCanvasGroup.alpha < 1)
-        {
-            loadingCanvasGroup.alpha += loadingSpeed * Time.deltaTime;
-            if(loadingCanvasGroup.alpha >= 1)
-            {
-                canLoad = true;
-            }
-            yield return null;
-        }
-    }
-    public IEnumerator fadeOutLoading()
-    {
-        canLoad = false;
-        while(loadingCanvasGroup.alpha > 0)
-        {
-            loadingCanvasGroup.alpha -= loadingSpeed * Time.deltaTime;
-            if(loadingCanvasGroup.alpha <= 0)
-            {
-                loadingMenu.SetActive(false);
-            }
-            yield return null;
-        }
-    }
-    public IEnumerator AsyncLoadNextScene(int nextIndex)
-    {
-        while (!canLoad)
-        {
-            print("x");
-            StartCoroutine(fadeInLoading());
-            yield return null;
-        }
-        if (nextIndex <= SceneManager.sceneCountInBuildSettings)
-        {
-            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(nextIndex);
-            while (!asyncLoad.isDone)
-            {
-                print("y");
-                print("loading");
-                yield return null;
-            }
-            /*
-             * while(asyncLoad still loading)
-             *  - give information about progression
-             */
-        }
-        this.refreshKey();
-    }
-
     //heart control
     public void loseHeart()
     {
         // move backwards from hearts[] -> check if current entity is enabled -> if yes, disable and end loop -> if no, move to next entity
-        for(int i = hearts.Length - 1; i >= 0; i--)
+        for (int i = hearts.Length - 1; i >= 0; i--)
         {
             if (hearts[i].activeInHierarchy)
             {
@@ -240,7 +83,7 @@ public class _UIManager : MonoBehaviour
 
     public void gainHeart()
     {
-        for(int i = 0; i < hearts.Length; i++)
+        for (int i = 0; i < hearts.Length; i++)
         {
             if (!hearts[i].activeInHierarchy)
             {
@@ -260,14 +103,90 @@ public class _UIManager : MonoBehaviour
     {
         for (int i = 0; i < keys.Length; i++)
         {
-            if (i > _LevelManager.numberOfKeys - 1)
+            if (i > _LevelManager.currentKeys - 1)
             {
                 keys[i].SetActive(false);
                 keys[i].GetComponent<Image>().overrideSprite = null;
-            } else
+            }
+            else
             {
                 keys[i].SetActive(true);
                 keys[i].GetComponent<Image>().overrideSprite = lostKeySprite;
+            }
+        }
+    }
+
+    //Coroutines
+    public IEnumerator LoadLevel(int index)
+    {
+        loadingMenu.SetActive(true);
+        yield return StartCoroutine(FadeLoadingScreen(true));
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(index);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        yield return StartCoroutine(FadeLoadingScreen(false));
+        loadingMenu.SetActive(false);
+        refreshKey();
+    }
+
+    public IEnumerator FadeLoadingScreen(bool isEntering)
+    {
+        float startValue = loadingCanvasGroup.alpha;
+        float targetValue = 0;
+        if (isEntering) targetValue = 1;
+
+        float time = 0;
+        float duration = 1;
+
+        while (time < duration)
+        {
+            loadingCanvasGroup.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
+            time += Time.deltaTime;
+
+            yield return null;
+        }
+
+        loadingCanvasGroup.alpha = targetValue;
+    }
+
+    //------------------------------------------------------
+
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+
+        loadingCanvasGroup = loadingMenu.GetComponent<CanvasGroup>();
+
+        /*pauseButtons = new List<GameObject>();
+        foreach (Transform child in pauseMenu.transform)
+        {
+            if (child.CompareTag("MenuButton"))
+            {
+                pauseButtons.Add(child.gameObject);
+            }
+        }*/
+        pauseMenu.SetActive(false);
+
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!pauseMenu.activeSelf)
+            {
+                Time.timeScale = 0f;
+                FindFirstObjectByType<_AudioManager>().Pause("background_level");
+                pauseMenu.SetActive(true);
+            } else
+            {
+                Time.timeScale = 1f;                
+                FindFirstObjectByType<_AudioManager>().Play("background_level");
+                pauseMenu.SetActive(false);
             }
         }
     }

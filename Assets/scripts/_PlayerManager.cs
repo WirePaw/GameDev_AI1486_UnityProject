@@ -62,7 +62,7 @@ public class _PlayerManager : MonoBehaviour
 
         UpdatePosition();
         spawnpoint = transform.position;
-        isActive = false;
+        //isActive = false;
     }
 
     private void FixedUpdate()

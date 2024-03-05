@@ -38,7 +38,11 @@ public class CanFollowPath : MonoBehaviour
 
     private void SetupWaypoints()
     {
-        foreach (Transform waypoint in base.transform)
+        waypoints = new List<Transform>();
+        waypointPositions = new List<Vector2>();
+        waypointTimers = new List<CanCountdownTimer>();
+
+        foreach (Transform waypoint in transform)
         {
             waypoints.Add(waypoint);
             waypointPositions.Add(waypoint.position);

@@ -19,24 +19,21 @@ public class CanBeControlled : MonoBehaviour
     {
         movingDirection = Vector2.zero;
 
-        if (_LevelManager.isActive)
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-            {
-                movingDirection += Vector2.up;
-            }
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-            {
-                movingDirection += Vector2.left;
-            }
-            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-            {
-                movingDirection += Vector2.down;
-            }
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            {
-                movingDirection += Vector2.right;
-            }
+            movingDirection += Vector2.up;
+        }
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            movingDirection += Vector2.left;
+        }
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        {
+            movingDirection += Vector2.down;
+        }
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            movingDirection += Vector2.right;
         }
         movingDirection.Normalize();
     }
@@ -50,7 +47,10 @@ public class CanBeControlled : MonoBehaviour
 
     void Update()
     {
-        InputMovement();
+        if (_PlayerManager.isActive)
+        {
+            InputMovement();
+        }
     }
 }
 
