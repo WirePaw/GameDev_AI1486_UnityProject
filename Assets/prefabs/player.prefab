@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b42e004e60c7d46a2639e9b2cabd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 10
+  walkingSpeed: 4.2
   sprite: {fileID: 4283282752396341988}
 --- !u!1 &4485706466223519671
 GameObject:

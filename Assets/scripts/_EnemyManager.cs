@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class _EnemyManager : MonoBehaviour
 {
@@ -9,15 +10,16 @@ public class _EnemyManager : MonoBehaviour
     private Vector2 playerDirection;
     private Vector2 position;
     private RaycastHit2D playerHit, idleHit;
-    public bool isIdleing;
-    public bool isTurning;
+    private bool isIdleing; //not yet used
+    private bool isTurning;
+    private bool hasFinishedCycle;
     public float turnSpeed;
     public float sightlength, sightwidth;
 
     //references
     CanFollowPath CFP;
     _AnimationManager AM;
-    LayerMask layerMask;
+    public LayerMask layerMask;
     public GameObject sprite; // set in editor
     public GameObject sight; // set in editor
 
@@ -25,12 +27,8 @@ public class _EnemyManager : MonoBehaviour
 
     void LookAt(Vector2 position)
     {
-        /*TODO maybe use coroutines and "isTurning"
-         * loop, until looking at lookDir
-         *      turn towards lookDir
-         */
-
         isTurning = true;
+        position.x += 0.001f;
         StartCoroutine(Turn(position - (Vector2)transform.position));
     }
 
@@ -73,11 +71,14 @@ public class _EnemyManager : MonoBehaviour
             if (Vector2.Angle(lookDirection, playerDirection) < sightwidth) // is player in line of sight of enemy?
             {
                 playerHit = Physics2D.Raycast(transform.position, playerDirection, sightlength, layerMask);
-                if (playerHit.collider.tag == "Player") // is nothing between player and enemy?
+                if(playerHit.collider != null)
                 {
-                    if (_PlayerManager.isActive)
+                    if (playerHit.collider.tag == "Player") // is nothing between player and enemy?
                     {
-                        _LevelManager.loseLife();
+                        if (_PlayerManager.isActive)
+                        {
+                            //_LevelManager.loseLife();
+                        }
                     }
                 }
             }
@@ -86,14 +87,16 @@ public class _EnemyManager : MonoBehaviour
 
     public void UpdateLookDirection()
     {
-        lookDirection = (((Vector2)sight.transform.position + Vector2.right) - (Vector2)transform.position);
+        lookDirection = sight.transform.rotation * Vector2.up;
     }
 
     public IEnumerator Turn(Vector2 direction)
     {
-        Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, Quaternion.Euler(0, 0, 90) * direction);
+        Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, direction);
+        //print("start: transform.rotation: "+ sight.transform.rotation + " targetRotation: " + targetRotation +" direction: "+ direction);
         while (sight.transform.rotation != targetRotation)
         {
+            //print(sight.transform.rotation + " " + targetRotation);
             //turn here
             sight.transform.rotation = Quaternion.RotateTowards(sight.transform.rotation, targetRotation, turnSpeed * Time.fixedDeltaTime);
             UpdateLookDirection();
@@ -106,13 +109,64 @@ public class _EnemyManager : MonoBehaviour
         }
     }
 
+    public IEnumerator WaitTurnMoveCycle()
+    {
+        hasFinishedCycle = false;
+
+        //TODO looking at direction doesn't work properly -> level01 enemy "looks" behind him, direction should look +180 degree
+        LookAt(CFP.GetWaypointPosition());
+        while(isTurning)
+        {
+            yield return null;
+        }
+        CFP.MoveToWaypoint();
+        while(CFP.isMoving)
+        {
+            yield return null;
+        }
+        CFP.Wait();
+        while (CFP.WaitingHasFinished())
+        {
+            yield return null;
+        }
+        CFP.AdvanceToNextWaypoint();
+        hasFinishedCycle = true;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        //length of sightcone
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength));
+
+        //width of sightcone
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth / 2 * Mathf.Deg2Rad)) + (Vector3.right * sightlength * Mathf.Sin(sightwidth / 2 * Mathf.Deg2Rad)));
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth / 2 * Mathf.Deg2Rad)) + (Vector3.left * sightlength * Mathf.Sin(sightwidth / 2 * Mathf.Deg2Rad)));
+
+        //enemy to player
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3)playerDirection.normalized*3);
+
+        //enemy sight direction
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3)lookDirection.normalized*3);
+
+    }
+
     //----------------------------------------------------------------------------------
 
     private void Awake()
     {
         CFP = GetComponentInChildren<CanFollowPath>();
         AM = sprite.GetComponent<_AnimationManager>();
+        hasFinishedCycle = true;
         UpdateLookDirection();
+
+        Light2D spotlight = sight.transform.GetChild(0).GetComponent<Light2D>();
+        if ( spotlight != null )
+        {
+            sightlength = (spotlight.pointLightInnerRadius + spotlight.pointLightOuterRadius) / 2;
+            sightwidth = (spotlight.pointLightInnerAngle + spotlight.pointLightOuterAngle) / 2;
+        }
     }
 
     private void FixedUpdate()
@@ -122,18 +176,9 @@ public class _EnemyManager : MonoBehaviour
             FindPlayer();
         }
 
-        CFP.Wait();
-        if(CFP.WaitingHasFinished())
+        if(hasFinishedCycle)
         {
-            LookAt(CFP.GetNextPosition());
-            if(!isTurning)
-            {
-                CFP.MoveToWaypoint();
-                if (AM != null)
-                {
-                    AM.setState(lookDirection);
-                }
-            }
+            StartCoroutine(WaitTurnMoveCycle());
         }
     }
 }

@@ -13,6 +13,11 @@ public class WillSpawnAtStart : MonoBehaviour
 
         _LevelManager.maxKeys = GameObject.FindGameObjectsWithTag("Key").Length;
         _LevelManager.currentKeys = _LevelManager.maxKeys;
+        print("maxKeys: "+ _LevelManager.maxKeys +" currentKeys: "+ _LevelManager.currentKeys);
+        foreach(GameObject go in GameObject.FindGameObjectsWithTag("Key"))
+        {
+            print(go.name);
+        }
         if(_LevelManager.currentKeys > 0)
         {
             _LevelManager.isDoorOpen = false;

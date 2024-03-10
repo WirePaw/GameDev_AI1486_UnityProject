@@ -15,7 +15,6 @@ public class CanCountdownTimer : MonoBehaviour
     //methods (actions?)
     public void StartTimer()
     {
-        currentTime = 0;
         hasFinished = false;
         StartCoroutine(RunTimer());
     }
@@ -27,6 +26,7 @@ public class CanCountdownTimer : MonoBehaviour
 
     public IEnumerator RunTimer()
     {
+        currentTime = 0;
         while (currentTime < maxTime)
         {
             currentTime += Time.fixedDeltaTime;

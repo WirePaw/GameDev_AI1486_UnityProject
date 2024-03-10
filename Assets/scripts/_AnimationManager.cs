@@ -82,5 +82,10 @@ public class _AnimationManager : MonoBehaviour
         var angle = Vector2.Angle(Vector2.left, direction);
         angle = direction.y > 0f ? angle : -angle;
         state = ((int)angle / 90) + 3;
+        
+        if (direction == Vector3.zero)
+        {
+            state = 0;
+        }
     }
 }

@@ -169,13 +169,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2322408435796456817}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1239998220017191303}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6927491440385739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,11 +275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d993f67f6f08ee46b361768940c2aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isIdleing: 0
-  isTurning: 0
-  turnSpeed: 5
+  turnSpeed: 8.2
   sightlength: 0
   sightwidth: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   sprite: {fileID: 1105167264907256317}
   sight: {fileID: 8544241561976651654}
 --- !u!1 &3616117551001351778
@@ -412,9 +413,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84e45fa2bb36834ba1b75214b34f4c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 0.3
   currentWaypoint: 0
   isMoving: 0
+  isWaiting: 0
 --- !u!1 &8544241561976651654
 GameObject:
   m_ObjectHideFlags: 0

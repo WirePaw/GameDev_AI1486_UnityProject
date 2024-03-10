@@ -17,6 +17,7 @@ public class _PlayerManager : MonoBehaviour
 
     //references
     private CanBeControlled CBCon;
+    private _AnimationManager AM;
     private Rigidbody2D body;
 
     public GameObject sprite; // set in editor
@@ -25,7 +26,13 @@ public class _PlayerManager : MonoBehaviour
 
     private void Walk()
     {
-        body.MovePosition(body.position + CBCon.GetMovingDirection() * walkingSpeed * Time.fixedDeltaTime);
+        body.MovePosition((Vector2)transform.position + CBCon.GetMovingDirection() * walkingSpeed * Time.fixedDeltaTime);
+        if (sprite != null)
+        {
+            AM.setState(CBCon.GetMovingDirection());
+
+        }
+
         UpdatePosition();
     }
 
@@ -37,15 +44,17 @@ public class _PlayerManager : MonoBehaviour
 
     public void UpdatePosition()
     {
-        position = body.position;
+        position = transform.position;
     }
 
     public IEnumerator MoveToSpawnpoint()
     {
         while (position != spawnpoint)
         {
-            body.position = Vector2.MoveTowards(position, spawnpoint, 10 * Time.fixedDeltaTime);
-            if(position == spawnpoint)
+            //body.MovePosition();
+            transform.position = Vector2.MoveTowards(position, spawnpoint, 8.7f * Time.fixedDeltaTime);
+            UpdatePosition();
+            if (position == spawnpoint)
             {
                 isActive = true;
             }
@@ -58,11 +67,11 @@ public class _PlayerManager : MonoBehaviour
     private void Awake()
     {
         CBCon = GetComponent<CanBeControlled>();
+        AM = sprite.GetComponent<_AnimationManager>();
         body = GetComponent<Rigidbody2D>();
 
         UpdatePosition();
         spawnpoint = transform.position;
-        //isActive = false;
     }
 
     private void FixedUpdate()

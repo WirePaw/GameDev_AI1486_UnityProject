@@ -35,12 +35,6 @@ public class _UIManager : MonoBehaviour
         StartCoroutine(LoadLevel(buildIndex));
     }
 
-    public void startLevel()
-    {
-        //TODO leave main menu and enter nextLevel
-        _LevelManager.isActive = true;
-    }
-
     //UI-methods
 
     //buttons
