@@ -280,7 +280,7 @@ MonoBehaviour:
   sightwidth: 0
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   sprite: {fileID: 1105167264907256317}
   sight: {fileID: 8544241561976651654}
 --- !u!1 &3616117551001351778

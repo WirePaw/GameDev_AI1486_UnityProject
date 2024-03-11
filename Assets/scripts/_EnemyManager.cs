@@ -77,7 +77,7 @@ public class _EnemyManager : MonoBehaviour
                     {
                         if (_PlayerManager.isActive)
                         {
-                            //_LevelManager.loseLife();
+                            _LevelManager.loseLife();
                         }
                     }
                 }
@@ -98,7 +98,7 @@ public class _EnemyManager : MonoBehaviour
         {
             //print(sight.transform.rotation + " " + targetRotation);
             //turn here
-            sight.transform.rotation = Quaternion.RotateTowards(sight.transform.rotation, targetRotation, turnSpeed * Time.fixedDeltaTime);
+            sight.transform.rotation = Quaternion.RotateTowards(sight.transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
             UpdateLookDirection();
 
             if (sight.transform.rotation == targetRotation)

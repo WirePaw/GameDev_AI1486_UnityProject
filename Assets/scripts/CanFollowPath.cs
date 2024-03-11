@@ -74,7 +74,8 @@ public class CanFollowPath : MonoBehaviour
         float distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
         while (distance > 0)
         {
-            transform.parent.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.fixedDeltaTime);
+            print(Time.timeScale);
+            transform.parent.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.deltaTime);
             distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
             if(distance <= 0)
             {
