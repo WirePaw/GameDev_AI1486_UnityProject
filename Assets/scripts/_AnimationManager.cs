@@ -16,6 +16,7 @@ public class _AnimationManager : MonoBehaviour
     {
         type = transform.tag;
         state = 0;
+        anim2 = GetComponent<Animator>();
     }
 
     void FixedUpdate()
