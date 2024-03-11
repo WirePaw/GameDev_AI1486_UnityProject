@@ -11,6 +11,7 @@ public class CanFollowPath : MonoBehaviour
     public float speed;
     public int currentWaypoint;
     public bool isMoving;
+    public bool isWaiting;
 
     //references
     List<Transform> waypoints;
@@ -28,6 +29,8 @@ public class CanFollowPath : MonoBehaviour
     public void Wait()
     {
         isMoving = false;
+        isWaiting = true;
+
         waypointTimers[currentWaypoint].StartTimer();
     }
 
@@ -51,27 +54,32 @@ public class CanFollowPath : MonoBehaviour
         currentWaypoint = 0;
     }
 
-    public Vector2 GetNextPosition()
+    public Vector2 GetWaypointPosition()
     {
         return waypointPositions[currentWaypoint];
     }
 
+    public void AdvanceToNextWaypoint()
+    {
+        currentWaypoint++;
+        if (currentWaypoint > waypoints.Count-1)
+        {
+            currentWaypoint = 0;
+        }
+    }
+
     public IEnumerator Move(Vector2 location)
     {
-        float distance = ((Vector2)transform.position - location).sqrMagnitude;
+        
+        float distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
         while (distance > 0)
         {
-            transform.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.fixedDeltaTime);
-            distance = ((Vector2)transform.position - location).sqrMagnitude;
-
+            print(Time.timeScale);
+            transform.parent.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.deltaTime);
+            distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
             if(distance <= 0)
             {
                 isMoving = false;
-                currentWaypoint++;
-                if (currentWaypoint >= waypoints.Count)
-                {
-                    currentWaypoint = 0;
-                }
             }
             yield return null;
         }

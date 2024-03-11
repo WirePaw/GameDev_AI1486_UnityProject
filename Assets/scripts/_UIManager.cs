@@ -35,12 +35,6 @@ public class _UIManager : MonoBehaviour
         StartCoroutine(LoadLevel(buildIndex));
     }
 
-    public void startLevel()
-    {
-        //TODO leave main menu and enter nextLevel
-        _LevelManager.isActive = true;
-    }
-
     //UI-methods
 
     //buttons
@@ -130,7 +124,6 @@ public class _UIManager : MonoBehaviour
 
         yield return StartCoroutine(FadeLoadingScreen(false));
         loadingMenu.SetActive(false);
-        refreshKey();
     }
 
     public IEnumerator FadeLoadingScreen(bool isEntering)
@@ -177,6 +170,7 @@ public class _UIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            print("timescale: "+ Time.timeScale);
             if (!pauseMenu.activeSelf)
             {
                 Time.timeScale = 0f;

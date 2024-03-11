@@ -10,19 +10,18 @@ public class _LevelManager : MonoBehaviour
     public static int currentKeys;
     public static int maxKeys;
 
-    // player attributes
+    // player attribute
     public static int life = 3; // lifes of player across every level
-    public static Vector3 spawnpoint; // spawnpoint of player, when hit 
-    public static bool isActive; // wether player can move or not
-    // all attributes are set in "Will_spawn_at_start"
 
     // Entity interaction
     public static void decreaseNeededKeys()
     {
         GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().foundKey(currentKeys, maxKeys);
         currentKeys--;
+        print("key collected: "+ currentKeys);
         if (currentKeys <= 0)
         {
+            print("all keys collected");
             FindFirstObjectByType<_AudioManager>().Play("clear_level");
             isDoorOpen = true;
         }
@@ -41,7 +40,8 @@ public class _LevelManager : MonoBehaviour
         else
         {
             //TODO move player to spawnpoint
-            GameObject.FindGameObjectWithTag("Player").transform.position = spawnpoint;
+            print("respawn");
+            GameObject.FindGameObjectWithTag("Player").GetComponent<_PlayerManager>().Respawn();
         }
     }
 
@@ -74,7 +74,7 @@ public class _LevelManager : MonoBehaviour
 
     public static void startLevel()
     {
-        GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().startLevel();
+        _PlayerManager.isActive = true;
     }
 
     private void OnGUI()
