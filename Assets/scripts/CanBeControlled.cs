@@ -7,6 +7,7 @@ public class CanBeControlled : MonoBehaviour
 {
     //attributes
     private Vector2 movingDirection;
+    private Animator animator;
 
     //references
 
@@ -45,11 +46,19 @@ public class CanBeControlled : MonoBehaviour
 
     //----------------------------------------------------------------
 
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
+
     void Update()
     {
         if (_PlayerManager.isActive)
         {
             InputMovement();
+            animator.SetFloat("moveX", movingDirection.x);
+            animator.SetFloat("moveY", movingDirection.y);
+            animator.SetFloat("speed", movingDirection.sqrMagnitude);
         }
     }
 }

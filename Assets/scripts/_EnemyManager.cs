@@ -16,6 +16,8 @@ public class _EnemyManager : MonoBehaviour
     public float turnSpeed;
     public float sightlength, sightwidth;
 
+    private Animator animator;
+
     //references
     CanFollowPath CFP;
     _AnimationManager AM;
@@ -169,11 +171,27 @@ public class _EnemyManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
+
     private void FixedUpdate()
     {
+
         if(_PlayerManager.position != null)
         {
             FindPlayer();
+        }
+
+        if (CFP.isMoving)
+        {
+            animator.SetFloat("moveX", lookDirection.x);
+            animator.SetFloat("moveY", lookDirection.y);
+            animator.SetFloat("speed", 1f);
+        } else
+        {
+            animator.SetFloat("speed", 0f);
         }
 
         if(hasFinishedCycle)
