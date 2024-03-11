@@ -81,7 +81,7 @@ public class CanFollowPath : MonoBehaviour
             {
                 isMoving = false;
             }
-            yield return null;
+            yield return new WaitUntil(() => Time.timeScale > 0);
         }
     }
 

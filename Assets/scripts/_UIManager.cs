@@ -176,11 +176,13 @@ public class _UIManager : MonoBehaviour
                 Time.timeScale = 0f;
                 FindFirstObjectByType<_AudioManager>().Pause("background_level");
                 pauseMenu.SetActive(true);
+                _PlayerManager.isActive = false;
             } else
             {
                 Time.timeScale = 1f;                
                 FindFirstObjectByType<_AudioManager>().Play("background_level");
                 pauseMenu.SetActive(false);
+                _PlayerManager.isActive = true;
             }
         }
     }

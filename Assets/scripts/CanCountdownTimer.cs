@@ -34,7 +34,7 @@ public class CanCountdownTimer : MonoBehaviour
             {
                 hasFinished = true;
             }
-            yield return null;
+            yield return new WaitUntil(() => Time.timeScale > 0);
         }
     }
 }

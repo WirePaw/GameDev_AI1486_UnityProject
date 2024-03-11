@@ -21,6 +21,7 @@ public class CanExitFrom : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            _PlayerManager.isActive = false;
             _LevelManager.AdvanceLevel();
         }
     }

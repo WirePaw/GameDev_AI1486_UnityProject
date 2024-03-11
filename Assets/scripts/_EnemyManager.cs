@@ -95,11 +95,8 @@ public class _EnemyManager : MonoBehaviour
     public IEnumerator Turn(Vector2 direction)
     {
         Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, direction);
-        //print("start: transform.rotation: "+ sight.transform.rotation + " targetRotation: " + targetRotation +" direction: "+ direction);
         while (sight.transform.rotation != targetRotation)
         {
-            //print(sight.transform.rotation + " " + targetRotation);
-            //turn here
             sight.transform.rotation = Quaternion.RotateTowards(sight.transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
             UpdateLookDirection();
 
@@ -107,7 +104,7 @@ public class _EnemyManager : MonoBehaviour
             {
                 isTurning = false;
             }
-            yield return null;
+            yield return new WaitUntil(() => Time.timeScale > 0);
         }
     }
 
@@ -115,7 +112,6 @@ public class _EnemyManager : MonoBehaviour
     {
         hasFinishedCycle = false;
 
-        //TODO looking at direction doesn't work properly -> level01 enemy "looks" behind him, direction should look +180 degree
         LookAt(CFP.GetWaypointPosition());
         while(isTurning)
         {
