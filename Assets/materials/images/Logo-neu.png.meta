@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 314a0c508cfd12944b793569cf403137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3208275712126011150
+    second: Logo-neu_0
+  - first:
+      213: -6278996473472165240
+    second: Logo-neu_1
+  - first:
+      213: -1716360404188295952
+    second: Logo-neu_2
+  - first:
+      213: 5444641632172521766
+    second: Logo-neu_3
+  - first:
+      213: -2754472463479056200
+    second: Logo-neu_4
+  - first:
+      213: -2379537153760424139
+    second: Logo-neu_5
+  - first:
+      213: 7672618120319073730
+    second: Logo-neu_6
+  - first:
+      213: -1749591858703048920
+    second: Logo-neu_7
+  - first:
+      213: 4806205343785708063
+    second: Logo-neu_8
+  - first:
+      213: 1547620664160325554
+    second: Logo-neu_9
+  - first:
+      213: -8433179007183301834
+    second: Logo-neu_10
+  - first:
+      213: 7745856972516458093
+    second: Logo-neu_11
+  - first:
+      213: -4670316633227336554
+    second: Logo-neu_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo-neu_0
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 435
+        width: 578
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07c8c213c5168c20800000000000000
+      internalID: 3208275712126011150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_1
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 584
+        width: 230
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ad2c499f58cd8a0800000000000000
+      internalID: -6278996473472165240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_2
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 582
+        width: 296
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc8fc95e434e28e0800000000000000
+      internalID: -1716360404188295952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_3
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 580
+        width: 257
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62932fea7b04f8b40800000000000000
+      internalID: 5444641632172521766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_4
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 585
+        width: 231
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b85cb663e526c9d0800000000000000
+      internalID: -2754472463479056200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 205
+        width: 170
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f0444e09f2afed0800000000000000
+      internalID: -2379537153760424139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 211
+        width: 167
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdf7d6778d9a7a60800000000000000
+      internalID: 7672618120319073730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_7
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 210
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fd618697338b7e0800000000000000
+      internalID: -1749591858703048920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_8
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 205
+        width: 170
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a6ee9bb4213b240800000000000000
+      internalID: 4806205343785708063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_9
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 204
+        width: 165
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf845e5bc04a7510800000000000000
+      internalID: 1547620664160325554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_10
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 204
+        width: 276
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633de85bf5457fa80800000000000000
+      internalID: -8433179007183301834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_11
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 210
+        width: 155
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e73df80efce7b60800000000000000
+      internalID: 7745856972516458093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo-neu_12
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 206
+        width: 212
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694e2e734c3bf2fb0800000000000000
+      internalID: -4670316633227336554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Logo-neu_0: 3208275712126011150
+      Logo-neu_1: -6278996473472165240
+      Logo-neu_10: -8433179007183301834
+      Logo-neu_11: 7745856972516458093
+      Logo-neu_12: -4670316633227336554
+      Logo-neu_2: -1716360404188295952
+      Logo-neu_3: 5444641632172521766
+      Logo-neu_4: -2754472463479056200
+      Logo-neu_5: -2379537153760424139
+      Logo-neu_6: 7672618120319073730
+      Logo-neu_7: -1749591858703048920
+      Logo-neu_8: 4806205343785708063
+      Logo-neu_9: 1547620664160325554
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
