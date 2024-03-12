@@ -11125,6 +11125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeTime: 7
   sceneToChange: MainMenu
+  cutscene: 1
 --- !u!1 &1372181486
 GameObject:
   m_ObjectHideFlags: 0
