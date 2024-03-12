@@ -75,3 +75,8 @@ MonoBehaviour:
     volume: 5
     loop: 1
     source: {fileID: 0}
+  - name: negative_beeps
+    clip: {fileID: 8300000, guid: 902b26027614d0543b74fd6db15c501a, type: 3}
+    volume: 5
+    loop: 0
+    source: {fileID: 0}

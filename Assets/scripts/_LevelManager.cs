@@ -40,6 +40,7 @@ public class _LevelManager : MonoBehaviour
         else
         {
             //TODO move player to spawnpoint
+            FindFirstObjectByType<_AudioManager>().Play("negative_beeps");
             print("respawn");
             GameObject.FindGameObjectWithTag("Player").GetComponent<_PlayerManager>().Respawn();
         }
