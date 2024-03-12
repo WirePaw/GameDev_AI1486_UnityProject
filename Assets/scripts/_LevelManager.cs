@@ -35,6 +35,7 @@ public class _LevelManager : MonoBehaviour
         {
             // kill player
             FindFirstObjectByType<_AudioManager>().Play("fail_level");
+            FindFirstObjectByType<_AudioManager>().Stop("background_level");
             SceneManager.LoadScene("XX_EndCutscene");
         }
         else

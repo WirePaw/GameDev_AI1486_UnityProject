@@ -7,6 +7,7 @@ public class SceneChanger : MonoBehaviour
 {
     public float changeTime;
     public string sceneToChange;
+    public int cutscene;
 
     // Update is called once per frame
     private void Update()
@@ -15,8 +16,16 @@ public class SceneChanger : MonoBehaviour
         if (changeTime <= 0)
         {
             SceneManager.LoadScene(sceneToChange);
-            FindFirstObjectByType<_AudioManager>().Play("background_level");
-            //FindFirstObjectByType<UIManager>().refreshKey();
+            switch (cutscene)
+            {
+                case 0:
+                    FindFirstObjectByType<_AudioManager>().Play("background_level");
+                    break;
+                case 1:
+                    FindFirstObjectByType<_AudioManager>().Play("background_menu");
+                    break;
+            }
+            
         }
         
     }
