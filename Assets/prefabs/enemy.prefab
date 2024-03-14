@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d993f67f6f08ee46b361768940c2aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 8.2
+  turnSpeed: 32
   sightlength: 0
   sightwidth: 0
   layerMask:
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84e45fa2bb36834ba1b75214b34f4c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.4
+  speed: 1
   currentWaypoint: 0
   isMoving: 0
   isWaiting: 0
