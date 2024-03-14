@@ -26,10 +26,6 @@ public class _UIManager : MonoBehaviour
     public Sprite keySprite;
     public Sprite lostKeySprite;
 
-    //methods (actions?)
-
-    //level-methods
-
     public void MovetoLevel(int buildIndex)
     {
         StartCoroutine(LoadLevel(buildIndex));
@@ -37,7 +33,7 @@ public class _UIManager : MonoBehaviour
 
     //UI-methods
 
-    //buttons
+    // methods to be used for buttons in the pause menu
     public void returnGameButton()
     {
         Time.timeScale = 1f;
@@ -61,10 +57,10 @@ public class _UIManager : MonoBehaviour
         pauseMenu.SetActive(false);
     }
 
-    //heart control
+
+    // methods to control the hearts in the ui
     public void loseHeart()
     {
-        // move backwards from hearts[] -> check if current entity is enabled -> if yes, disable and end loop -> if no, move to next entity
         for (int i = hearts.Length - 1; i >= 0; i--)
         {
             if (hearts[i].activeInHierarchy)
@@ -87,7 +83,7 @@ public class _UIManager : MonoBehaviour
         }
     }
 
-    //key control
+    // methods to control the keys in the ui
     public void foundKey(int numberOfKeys, int maxNumberOfKeys)
     {
         keys[maxNumberOfKeys - numberOfKeys].GetComponent<Image>().overrideSprite = keySprite;
@@ -110,7 +106,7 @@ public class _UIManager : MonoBehaviour
         }
     }
 
-    //Coroutines
+    // Coroutine to load a level via the index, while transitioning between levels via the loading screen
     public IEnumerator LoadLevel(int index)
     {
         loadingMenu.SetActive(true);
@@ -126,6 +122,7 @@ public class _UIManager : MonoBehaviour
         loadingMenu.SetActive(false);
     }
 
+    // manipulates the loading screen to fade in and out of a blackscreen
     public IEnumerator FadeLoadingScreen(bool isEntering)
     {
         float startValue = loadingCanvasGroup.alpha;
@@ -151,21 +148,12 @@ public class _UIManager : MonoBehaviour
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
         loadingCanvasGroup = loadingMenu.GetComponent<CanvasGroup>();
-
-        /*pauseButtons = new List<GameObject>();
-        foreach (Transform child in pauseMenu.transform)
-        {
-            if (child.CompareTag("MenuButton"))
-            {
-                pauseButtons.Add(child.gameObject);
-            }
-        }*/
         pauseMenu.SetActive(false);
 
     }
 
+    // manages keyInput, for entering adn exiting the pause menu
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

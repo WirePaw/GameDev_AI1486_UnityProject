@@ -5,17 +5,12 @@ using UnityEngine;
 
 public class CanBeControlled : MonoBehaviour
 {
-    //attributes
+    // attributes
     private Vector2 movingDirection;
     private Animator animator;
 
-    //references
 
-    //methods (actions?)
-
-
-    // use KeyCode-attributes to implement custom button mapping -> KeyCode left = KeyCode.A -> if(Input.GetKey(left) { move left; }
-    // KeyCode-mapping needs to happen outside of CanBeControlled -> perhaps in LevelManager?
+    // define direction according to KeyInput
     public void InputMovement()
     {
         movingDirection = Vector2.zero;
@@ -39,6 +34,7 @@ public class CanBeControlled : MonoBehaviour
         movingDirection.Normalize();
     }
 
+    // getter for movingDirection
     public Vector2 GetMovingDirection()
     {
         return movingDirection;
@@ -51,6 +47,7 @@ public class CanBeControlled : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
     }
 
+    // check for KeyInput, if player is allowed to move
     void Update()
     {
         if (_PlayerManager.isActive)

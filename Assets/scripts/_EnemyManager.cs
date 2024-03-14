@@ -25,46 +25,7 @@ public class _EnemyManager : MonoBehaviour
     public GameObject sprite; // set in editor
     public GameObject sight; // set in editor
 
-    //methods (actions?)
-
-    void LookAt(Vector2 position)
-    {
-        isTurning = true;
-        position.x += 0.001f;
-        StartCoroutine(Turn(position - (Vector2)transform.position));
-    }
-
-    void BeIdle() // do it later
-    {
-        /*
-         * if isIdling, then:
-         *      loop until random dir is gotten
-         *          if random dir is not looking at wall, then:
-         *              save random dir and leave loop
-         *          else: 
-         *              get new random dir
-         *      lookAt(randomDir)
-         *    
-         */
-
-        /*
-        isIdleing = true;
-        float random = Random.value * 360;
-        Vector2 randomDirection = new Vector2(Mathf.Cos(random), Mathf.Cos(random));
-
-        while (true) // checks if enemy would stare at a wall
-        {
-            idleHit = Physics2D.Raycast(transform.position, randomDirection, sightlength, layerMask);
-            if (idleHit.collider == null)
-            {
-                break;
-            }
-        }
-
-        LookAt(randomDirection); // <- should be position!
-        */
-    }
-
+    // method to check if enemy can see player
     void FindPlayer()
     {
         playerDirection = (_PlayerManager.position - (Vector2)transform.position);
@@ -73,7 +34,7 @@ public class _EnemyManager : MonoBehaviour
             if (Vector2.Angle(lookDirection, playerDirection) < sightwidth) // is player in line of sight of enemy?
             {
                 playerHit = Physics2D.Raycast(transform.position, playerDirection, sightlength, layerMask);
-                if(playerHit.collider != null)
+                if (playerHit.collider != null)
                 {
                     if (playerHit.collider.tag == "Player") // is nothing between player and enemy?
                     {
@@ -87,11 +48,17 @@ public class _EnemyManager : MonoBehaviour
         }
     }
 
+    // makes enemy look at a given position, used to look towards the next waypoint
+    void LookAt(Vector2 position)
+    {
+        isTurning = true;
+        position.x += 0.001f;
+        StartCoroutine(Turn(position - (Vector2)transform.position));
+    }
     public void UpdateLookDirection()
     {
         lookDirection = sight.transform.rotation * Vector2.up;
     }
-
     public IEnumerator Turn(Vector2 direction)
     {
         Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, direction);
@@ -108,6 +75,7 @@ public class _EnemyManager : MonoBehaviour
         }
     }
 
+    // enemy's behaviour -> look at next waypoint -> move towards waypoint -> wait until moving to next waypoint -> repeat
     public IEnumerator WaitTurnMoveCycle()
     {
         hasFinishedCycle = false;
@@ -130,6 +98,8 @@ public class _EnemyManager : MonoBehaviour
         CFP.AdvanceToNextWaypoint();
         hasFinishedCycle = true;
     }
+
+    // lines drawn ONLY in the editor, to check for sight-data
     private void OnDrawGizmosSelected()
     {
         //length of sightcone
@@ -152,6 +122,7 @@ public class _EnemyManager : MonoBehaviour
 
     //----------------------------------------------------------------------------------
 
+    // set attributes, aswell as get sightdata from spotlight of enemy's sight-object
     private void Awake()
     {
         CFP = GetComponentInChildren<CanFollowPath>();
@@ -196,104 +167,3 @@ public class _EnemyManager : MonoBehaviour
         }
     }
 }
-
-/*
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
-
-
-// THIS IS REDUNDANT - DELETE WHEN POSSIBLE
-
-
-
-
-public class CanSeePlayer : MonoBehaviour
-{
-    public RaycastHit2D hit;
-    public LayerMask layerMask;
-    public CanFollowPath body;
-    public CanBeControlled player;
-    public GameObject sightcone;
-
-    // sightcone attributes
-    public float sightwidth; //TODO change name, so reader knows it calculates width in degree
-    public float sightlength;
-
-    //debug
-    public float distance;
-    public Vector3 bodyDir;
-    public Vector3 playerDir;
-    public float angleToPlayer;
-    public float angleOfSight;
-
-    public float angleMidCalc;
-
-    private void OnDrawGizmosSelected()
-    {
-        //length of sightcone
-        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength));
-
-        //width of sightcone
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth/2 * Mathf.Deg2Rad)) + (Vector3.right * sightlength * Mathf.Sin(sightwidth/2 * Mathf.Deg2Rad)));
-        Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * sightlength * Mathf.Cos(sightwidth/2 * Mathf.Deg2Rad)) + (Vector3.left * sightlength * Mathf.Sin(sightwidth/2 * Mathf.Deg2Rad)));
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + bodyDir);
-    }
-
-    private void Start()
-    {
-        body = GetComponentInParent<CanFollowPath>();
-        //player = GameObject.FindGameObjectWithTag("Player").GetComponent<Can_be_controlled>();
-        sightcone = transform.Find("sightcone").gameObject;
-
-        bodyDir = Vector3.down;
-    }
-    private void FixedUpdate()
-    {
-        if(body != null)
-        {
-            if(bodyDir != Vector3.zero)
-            {
-                //TODO angleOfSight doesn't work properly -> look into Vector3.up and if-clause for negative correction
-
-                //angleOfSight = Vector3.Angle(bodyDir, Vector3.up);
-                //var difference = (transform.position + bodyDir) - transform.position;
-                //angleOfSight = ((Mathf.Atan2(difference.x, difference.y) + 360) % 360) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.LookRotation(bodyDir, Vector3.right);
-                //transform.rotation = Quaternion.Euler(0, 0, angleOfSight);
-            }
-            if(player != null)
-            {
-                distance = (player.getPosition() - transform.position).magnitude;
-                if (distance < sightlength) //code optimisation -> square-root-operation costs more time than multiplication
-                {
-                    playerDir = (player.getPosition() - transform.position).normalized;
-                    angleToPlayer = Vector3.Angle(bodyDir, playerDir);
-
-                    if (angleToPlayer < sightwidth/2)
-                    {
-                        //TODO insert enemy action
-                        //LevelManager.loseLife();
-                        print("player found");
-                    }
-                }
-            }
-            else
-            {
-                player = GameObject.FindGameObjectWithTag("Player").GetComponent<CanBeControlled>();
-            }
-        }
-    }
-
-    public void setDirection(Vector3 direction)
-    {
-        this.bodyDir = direction;
-    }
-}
-
- */

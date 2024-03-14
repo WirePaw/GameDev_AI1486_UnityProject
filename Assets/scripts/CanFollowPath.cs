@@ -18,14 +18,30 @@ public class CanFollowPath : MonoBehaviour
     List<Vector2> waypointPositions;
     List<CanCountdownTimer> waypointTimers;
 
-    //methods (actions?)
-
+    // make parent-object move towards waypoint
     public void MoveToWaypoint()
     {
         isMoving = true;
         StartCoroutine(Move(waypointPositions[currentWaypoint]));
     }
+    public IEnumerator Move(Vector2 location)
+    {
 
+        float distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
+        while (distance > 0)
+        {
+            //print(Time.timeScale);
+            transform.parent.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.deltaTime);
+            distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
+            if (distance <= 0)
+            {
+                isMoving = false;
+            }
+            yield return new WaitUntil(() => Time.timeScale > 0);
+        }
+    }
+
+    // wait for a specific amount of time (set in editor), and check if waiting is over
     public void Wait()
     {
         isMoving = false;
@@ -33,12 +49,12 @@ public class CanFollowPath : MonoBehaviour
 
         waypointTimers[currentWaypoint].StartTimer();
     }
-
     public bool WaitingHasFinished()
     {
         return waypointTimers[currentWaypoint].HasFinished();
     }
 
+    // setup and manage waypoints, used to form a path to walk
     private void SetupWaypoints()
     {
         waypoints = new List<Transform>();
@@ -68,23 +84,6 @@ public class CanFollowPath : MonoBehaviour
         }
     }
 
-    public IEnumerator Move(Vector2 location)
-    {
-        
-        float distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
-        while (distance > 0)
-        {
-            //print(Time.timeScale);
-            transform.parent.position = Vector2.MoveTowards(transform.position, waypointPositions[currentWaypoint], speed * Time.deltaTime);
-            distance = ((Vector2)transform.parent.position - location).sqrMagnitude;
-            if(distance <= 0)
-            {
-                isMoving = false;
-            }
-            yield return new WaitUntil(() => Time.timeScale > 0);
-        }
-    }
-
     //-------------------------------------------------------------
 
     private void Awake()
@@ -92,79 +91,3 @@ public class CanFollowPath : MonoBehaviour
         SetupWaypoints();
     }
 }
-
-
-
-
-/*
-
-    public String state;
-    public int nextPointIndex;
-    public float speed;
-    private _AnimationManager sprite;
-    private CanSeePlayer sightcone;
-    private CanCountdownTimer timer;
-    public List<Transform> waypoints;
-    public List<Vector3> waypointPositions; // <- quick solution to moving waypoints issue
-    public Vector3 direction;
-    private Vector3 oldPosition;
-
-    private void Awake()
-    {
-        sprite = GetComponentInChildren<_AnimationManager>();
-        sightcone = GetComponentInChildren<CanSeePlayer>();
-        state = "standing";
-        nextPointIndex = 0;
-        waypoints = new List<Transform>();
-        waypointPositions = new List<Vector3>();
-
-    }
-    private void Start()
-    {
-        // add any waypoints, stored as children under the path.gameObject
-
-        foreach (Transform waypoint in transform.Find("path").transform)
-        {
-            waypoints.Add(waypoint);
-            waypointPositions.Add(waypoint.position);
-        }
-        if (waypoints.Count > 0)
-        {
-            timer = waypoints[nextPointIndex].GetComponent<CanCountdownTimer>();
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if(waypoints.Count > 1)
-        {
-            if (!(transform.position == waypointPositions[nextPointIndex])) //TODO use Mathf.Approximately() to proper compare floats
-            {
-                state = "walking";
-                oldPosition = transform.position;
-                transform.position = Vector2.MoveTowards(transform.position, waypointPositions[nextPointIndex], speed * Time.fixedDeltaTime);
-                direction = (transform.position - oldPosition).normalized;
-                sightcone.setDirection(direction);
-            }
-            else
-            {
-                state = "waiting";
-                timer.startTimer();
-
-                // TODO redo timer for better readability
-                if (!timer.hasStarted() && timer.hasEnded())
-                {
-                    timer.resetTimer();
-                    nextPointIndex = (nextPointIndex + 1) % waypoints.Count;
-                    timer = waypoints[nextPointIndex].GetComponent<CanCountdownTimer>();
-                }
-            }
-
-            if (sprite != null)
-            {
-                sprite.setState(direction);
-            }
-        }
-    }
-}
-*/

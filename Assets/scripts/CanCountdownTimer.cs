@@ -12,7 +12,7 @@ public class CanCountdownTimer : MonoBehaviour
 
     //references
 
-    //methods (actions?)
+    // runs a timer with a time, set in the editor
     public void StartTimer()
     {
         hasFinished = false;

@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class Has_sound_when_controlled : MonoBehaviour
 {
-
-    // Update is called once per frame
-    //TODO Integrate into CanBeControlled / _PlayerManager
-
+    // apply walking sounds, if player is walking
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) ||

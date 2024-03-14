@@ -6,10 +6,11 @@ using System;
 
 public class _AudioManager : MonoBehaviour
 {
+    // manage any and all sounds and music, played during the game
+
     public AudioSound[] sounds;
     public static _AudioManager instance;
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (instance == null)

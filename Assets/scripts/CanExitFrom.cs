@@ -11,12 +11,15 @@ public class CanExitFrom : MonoBehaviour
     {
         col = GetComponent<BoxCollider2D>();
     }
+
+    // "opens" the exit, by setting the collider to a trigger
     private void Update()
     {
         col.isTrigger = _LevelManager.isDoorOpen;
 
     }
 
+    // if the collider acts as a trigger, checks for collision with the player and acts accordingly
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

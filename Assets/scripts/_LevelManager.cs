@@ -11,9 +11,9 @@ public class _LevelManager : MonoBehaviour
     public static int maxKeys;
 
     // player attribute
-    public static int life = 3; // lifes of player across every level
+    public static int life = 3;
 
-    // Entity interaction
+    // reacts on player collecting keys, and updates state of the ui and the exit
     public static void decreaseNeededKeys()
     {
         GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().foundKey(currentKeys, maxKeys);
@@ -26,6 +26,8 @@ public class _LevelManager : MonoBehaviour
             isDoorOpen = true;
         }
     }
+
+    // reacts on player loosing a life, executing a game over, if all their lifes run out
     public static void loseLife()
     {
         life--;
@@ -45,8 +47,7 @@ public class _LevelManager : MonoBehaviour
         }
     }
 
-    // Level interaction
-    //TODO when advancing level, fadeInLoading doesn't work -> no black screen to initiate new scene (loading time is too short to notice)
+    // level interaction, for moving between levels
     public static void AdvanceLevel()
     {
         MovetoLevel(SceneManager.GetActiveScene().buildIndex + 1);
@@ -63,24 +64,8 @@ public class _LevelManager : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().MovetoLevel(nextIndex);
     }
-
-    // Scene interaction
-    /*
-     * - open gate?
-     * - open pause menu?
-     * - TODO start level (when ready)
-     * - 
-     */
-
     public static void startLevel()
     {
         _PlayerManager.isActive = true;
-    }
-
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 300, 40), "Life: " + _LevelManager.life);
-        GUI.Label(new Rect(10, 35, 300, 20), "doorIsOpen: " + _LevelManager.isDoorOpen);
-        GUI.Label(new Rect(10, 60, 300, 20), "numberOfKeys: " + _LevelManager.currentKeys);
     }
 }

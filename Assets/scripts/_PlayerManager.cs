@@ -4,42 +4,31 @@ using UnityEngine;
 
 public class _PlayerManager : MonoBehaviour
 {
-    /*TODO
-     * - implement sprite -> sprite needs player direction 
-     */
 
     //attributes
     public static Vector2 position;
     public static bool isActive;
     public static Vector2 spawnpoint;
-
     public float walkingSpeed;
 
     //references
     private CanBeControlled CBCon;
     private Rigidbody2D body;
-
     public GameObject sprite; // set in editor
 
-    //methods (actions?)
-
+    // move to position, given by "CanBeControlled"
     private void Walk()
     {
         body.MovePosition((Vector2)transform.position + CBCon.GetMovingDirection() * walkingSpeed * Time.fixedDeltaTime);
         UpdatePosition();
     }
 
+    // respawn by moving towards spawnpoint, set at start of level
     public void Respawn()
     {
         isActive = false;
         StartCoroutine(MoveToSpawnpoint());
     }
-
-    public void UpdatePosition()
-    {
-        position = transform.position;
-    }
-
     public IEnumerator MoveToSpawnpoint()
     {
         while (position != spawnpoint)
@@ -55,8 +44,15 @@ public class _PlayerManager : MonoBehaviour
         }
     }
 
+    // player's position, accessable for every other script
+    public void UpdatePosition()
+    {
+        position = transform.position;
+    }
+
     //-------------------------------------------------------------
 
+    // set attributes, aswell as spawnpoint
     private void Awake()
     {
         CBCon = GetComponent<CanBeControlled>();
@@ -66,6 +62,7 @@ public class _PlayerManager : MonoBehaviour
         spawnpoint = transform.position;
     }
 
+    // walk if player is allowed to
     private void FixedUpdate()
     {
         if(isActive)

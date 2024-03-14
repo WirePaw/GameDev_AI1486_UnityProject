@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class _AnimationManager : MonoBehaviour
 {
-    public string type; //wether if player- or enemy-sprites should be used
+    public string type;
     public int state;
 
     public Animator anim2;

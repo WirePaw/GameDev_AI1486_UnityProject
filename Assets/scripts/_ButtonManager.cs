@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class _ButtonManager : MonoBehaviour
 {
+    // methods to be used in buttons, set in editor
+
     [RuntimeInitializeOnLoadMethod]
     static void OnRuntimeMethodLoad()
     {

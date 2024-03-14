@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+
     public float changeTime;
     public string sceneToChange;
 
-    // Update is called once per frame
     private void Update()
     {
         changeTime -= Time.deltaTime;
@@ -16,7 +16,6 @@ public class SceneChanger : MonoBehaviour
         {
             SceneManager.LoadScene(sceneToChange);
             FindFirstObjectByType<_AudioManager>().Play("background_level");
-            //FindFirstObjectByType<UIManager>().refreshKey();
         }
         
     }

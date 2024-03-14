@@ -7,9 +7,9 @@ using UnityEngine;
 
 public class CanBeCollected : MonoBehaviour
 {
+    // executes "Key collected"-event, if player touches this keys collider
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.CompareTag("Player"))
         {
             if(gameObject.tag.Equals("Key"))

@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class WillSpawnAtStart : MonoBehaviour
 {
-    public GameObject playerPrefab; // set in editor
+    // prefabs to be instantiated on level start
+    public GameObject playerPrefab;
     public GameObject uiPrefab;
     void Start()
     {
         Instantiate(playerPrefab, transform.position, transform.rotation);
+        // ui gets instantiated once
         if(GameObject.FindGameObjectWithTag("UI") == null)
         {
             Instantiate(uiPrefab);
         }
 
+        // set new informations for current level
         _PlayerManager.spawnpoint = transform.position;
-
         _LevelManager.maxKeys = GameObject.FindGameObjectsWithTag("Key").Length;
         _LevelManager.currentKeys = _LevelManager.maxKeys;
+
+        // refresh ui, with new key-data
         GameObject.FindGameObjectWithTag("UI").GetComponent<_UIManager>().refreshKey();
 
-        print("maxKeys: "+ _LevelManager.maxKeys +" currentKeys: "+ _LevelManager.currentKeys);
-
-        foreach(GameObject go in GameObject.FindGameObjectsWithTag("Key"))
-        {
-            print(go.name);
-        }
+        // set doorState, and check if it isn't already open
         if(_LevelManager.currentKeys > 0)
         {
             _LevelManager.isDoorOpen = false;
@@ -35,6 +34,7 @@ public class WillSpawnAtStart : MonoBehaviour
             _LevelManager.isDoorOpen = true;
         }
 
+        // start Level after everything is ready
         _LevelManager.startLevel();
     }
 }
